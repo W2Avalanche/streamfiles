@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación de Imágenes</title>
+    <style>
+        #imageContainer {
+            width: 1920px;
+            height: 180px;
+            overflow: hidden;
+        }
+
+        #rotatingImage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="imageContainer">
+        <img id="rotatingImage" src="images/w2p_2.png" alt="Rotating Image">
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Array con los nombres de las imágenes en la carpeta "images"
+            const imageNames = ["ct_1.png", "ct_2.png", "ct_3.png", "ct_4.png", "ct_5.png", "ct_6.png", "ct_7.png"];
+            let currentIndex = 0;
+
+            // Obtener referencias a los elementos DOM
+            const rotatingImage = document.getElementById("rotatingImage");
+
+            // Función para cambiar la imagen cada segundo
+            function rotateImage() {
+                rotatingImage.src = "images/" + imageNames[currentIndex];
+                currentIndex = (currentIndex + 1) % imageNames.length;
+            }
+
+            // Iniciar la rotación cada segundo
+            setInterval(rotateImage, 5000);
+        });
+    </script>
+</body>
+</html>
