@@ -1,6 +1,6 @@
 {
     "AuxAudioDevice2": {
-        "prev_ver": 503382017,
+        "prev_ver": 503316482,
         "name": "Stream",
         "uuid": "ca4083f0-0061-416a-a565-c178aa197931",
         "id": "wasapi_input_capture",
@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Dawe",
-    "current_program_scene": "Dawe",
+    "current_scene": "Cámaras",
+    "current_program_scene": "Game",
     "scene_order": [
         {
             "name": "Setup"
@@ -61,24 +61,24 @@
             "name": "Finalizado"
         }
     ],
-    "name": "W2A Elro",
+    "name": "W2A Show",
     "groups": [
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Patros Parada Game",
             "uuid": "858a1f44-2b96-456e-9528-c7aa2fe93efc",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 348,
                 "cy": 128,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Fondo patros parada",
                         "source_uuid": "bb888f44-31c2-4208-a38c-e3e1ee8fb5a9",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -92,7 +92,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -131,7 +130,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -178,16 +176,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Patros Game",
             "uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 627,
                 "cy": 121,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Patros CT",
@@ -206,7 +204,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -245,7 +242,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -275,7 +271,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 305.0157470703125,
-                            "y": 0.0082327425479888916
+                            "y": 0.00823974609375
                         },
                         "scale": {
                             "x": 0.99999988079071045,
@@ -284,7 +280,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -333,16 +328,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo VS Intro",
             "uuid": "544579da-2370-45c1-8cda-71a164dfdef4",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 817,
                 "cy": 445,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Fase",
@@ -361,7 +356,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -400,7 +394,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -439,7 +432,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -478,7 +470,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -529,22 +520,22 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Cabecera Game",
             "uuid": "4ddac7b5-1656-4e60-bc39-28179dcbdd2e",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 1418,
+                "cx": 1404,
                 "cy": 74,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Tag Blue",
                         "source_uuid": "e62bbf0c-eb46-4182-9b59-4f29a4763648",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -557,7 +548,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -586,7 +576,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1340.0,
+                            "x": 1288.0,
                             "y": 0.0
                         },
                         "scale": {
@@ -596,7 +586,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -643,16 +632,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Cabecera Dawe",
             "uuid": "1af4b58c-1fd8-4f24-9914-e74e6d02362d",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 1141,
+                "cx": 1133,
                 "cy": 50,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Nombre Blue",
@@ -671,7 +660,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -710,7 +698,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -757,16 +744,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Chat",
             "uuid": "65a414f3-55f1-414d-8587-b1ff40b8eaa9",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 650,
                 "cy": 704,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Título Chat",
@@ -785,7 +772,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -824,7 +810,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -871,16 +856,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Cams Stats",
             "uuid": "5eb22eb6-ab3b-4dd6-9bea-7b4e92f54622",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 1170,
                 "cy": 631,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Fondo cams dawe",
@@ -899,7 +884,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -938,7 +922,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -985,16 +968,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Red",
             "uuid": "23a94431-1d0a-42f5-aae5-261b6471bb72",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 817,
                 "cy": 192,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Nombre Red Intro",
@@ -1013,7 +996,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1052,7 +1034,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1091,7 +1072,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1130,7 +1110,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1181,16 +1160,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Blue",
             "uuid": "1597c607-791c-47ae-983f-d1c7bac3b850",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 817,
                 "cy": 192,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Nombre Blue Intro",
@@ -1209,7 +1188,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1248,7 +1226,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1287,7 +1264,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1326,7 +1302,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1377,16 +1352,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Grupo Banda Patros",
             "uuid": "1100366d-cbd4-4251-99b8-bf2bf4544d6d",
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 128,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Banda Patros CT",
@@ -1405,7 +1380,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1431,20 +1405,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1527,11 +1500,6 @@
         "type2": 3
     },
     "modules": {
-        "transition-table": {
-            "transitions": [],
-            "enable_hotkey": [],
-            "disable_hotkey": []
-        },
         "scripts-tool": [],
         "output-timer": {
             "streamTimerHours": 0,
@@ -1560,13 +1528,13 @@
     },
     "sources": [
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Banda Patros CT",
             "uuid": "33d3fcd5-5bb1-4313-92f3-caeb047a3681",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/banda-patros-ct.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/banda-patros-ct.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1586,14 +1554,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Cámaras",
             "uuid": "9a55a564-93aa-453f-a2d7-77fc8b996929",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 8,
                 "custom_size": false,
+                "id_counter": 8,
                 "items": [
                     {
                         "name": "Fondo cámaras",
@@ -1612,7 +1580,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1651,7 +1618,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1690,7 +1656,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1716,20 +1681,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1768,7 +1732,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1789,7 +1752,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -1809,7 +1772,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1848,7 +1810,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -1902,7 +1863,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Chat",
             "uuid": "6a508d6b-2954-4630-8396-ee4a73dbe7e9",
             "id": "browser_source",
@@ -1912,7 +1873,7 @@
                 "width": 650,
                 "height": 650
             },
-            "mixers": 255,
+            "mixers": 225,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -1936,19 +1897,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Cuenta atrás",
             "uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "file": "E:/DEV-PROJECTS/StreamTimer/timer.txt",
                 "read_from_file": true,
-                "file": "C:/Users/alfon/OneDrive/Documents/00 Personal/LoL/Sportia Riders/UX/OBS/Common/countdown.txt",
                 "font": {
                     "face": "Anybody",
-                    "style": "UltraCondensed SemiBold",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "UltraCondensed SemiBold"
                 }
             },
             "mixers": 0,
@@ -1969,14 +1930,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Dawe",
             "uuid": "7a01eafb-38b3-49ee-a35c-d285a431adc9",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 14,
                 "custom_size": false,
+                "id_counter": 17,
                 "items": [
                     {
                         "name": "Draftlol",
@@ -1995,7 +1956,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2034,7 +1994,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2073,7 +2032,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2112,7 +2070,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2151,7 +2108,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2177,20 +2133,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2229,7 +2184,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2250,7 +2204,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -2270,7 +2224,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2309,7 +2262,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2348,7 +2300,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2387,7 +2338,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2428,7 +2378,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2467,7 +2416,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2492,7 +2440,7 @@
                     {
                         "name": "Cuenta atrás",
                         "source_uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2506,7 +2454,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2516,6 +2463,44 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 13,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "VDO Room Cámaras",
+                        "source_uuid": "ce085809-c304-4ef0-891f-89ef10cb3b05",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 383.0,
+                            "y": 296.0
+                        },
+                        "scale": {
+                            "x": 0.67267441749572754,
+                            "y": 0.67294752597808838
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 17,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2562,7 +2547,9 @@
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": []
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2570,13 +2557,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Draftlol",
             "uuid": "bd55a58d-d0fc-441e-b282-36eef85b360b",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://draftlol.dawe.gg/EgnW5hj0",
+                "url": "https://draftlol.dawe.gg/pffywG81",
                 "width": 1920,
                 "height": 939,
                 "reroute_audio": true
@@ -2605,7 +2592,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503382017,
+                    "prev_ver": 503316482,
                     "name": "Imagen máscara/mezcla",
                     "uuid": "c21a6f30-89c1-453f-ad70-2ec7087100d1",
                     "id": "mask_filter",
@@ -2633,14 +2620,14 @@
             ]
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Empezamos",
             "uuid": "6eb736b0-eda9-413f-b087-756818d342b0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 22,
                 "custom_size": false,
+                "id_counter": 22,
                 "items": [
                     {
                         "name": "Fondo empezando",
@@ -2659,7 +2646,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2698,7 +2684,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2728,7 +2713,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 952.0
+                            "y": 954.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2737,7 +2722,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2763,20 +2747,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
-                            "y": 952.0
+                            "y": 954.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2806,7 +2789,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 952.0
+                            "y": 954.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2815,7 +2798,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2836,7 +2818,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -2856,7 +2838,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2895,7 +2876,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2934,7 +2914,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -2973,7 +2952,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3012,7 +2990,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3033,7 +3010,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -3053,7 +3030,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3092,7 +3068,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3131,7 +3106,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3152,7 +3126,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -3187,19 +3161,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fase",
             "uuid": "74f541ea-c7b4-4cde-9541-dcd38288d573",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "  FASE DE GRUPOS: R8\n  RONDA 4",
+                "text": "  FASE DE GRUPOS: R8\n  BO1",
                 "font": {
                     "face": "TacticSans-Bld",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 36,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "center",
                 "extents_cx": 400,
@@ -3223,7 +3197,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fase Volvemos",
             "uuid": "ce4ceef9-aea2-4ec8-abe2-2bf6161b62d2",
             "id": "text_gdiplus",
@@ -3233,9 +3207,9 @@
                 "text": "21:00\nFASE DE GRUPOS: R8\nRONDA 4",
                 "font": {
                     "face": "TacticSans-Bld",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 36,
-                    "flags": 0
+                    "style": "Regular"
                 },
                 "align": "left",
                 "extents_cx": 444,
@@ -3259,14 +3233,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Finalizado",
             "uuid": "29d437ad-63b8-4c3c-ad95-09532c1ae4c0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "Fondo terminando",
@@ -3285,7 +3259,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3324,7 +3297,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3372,13 +3344,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Florituras cámaras",
             "uuid": "679cda75-f268-4197-82f9-be7a1bef4d2b",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/florituras-camaras.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/florituras-camaras.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3398,13 +3370,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo",
             "uuid": "71f38d40-75fb-4d6f-bf68-166b560a83b0",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3424,13 +3396,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo cámaras",
             "uuid": "58d58fed-c907-437b-a137-276af5f5a882",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-camaras.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-camaras.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3450,13 +3422,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo cams cámaras",
             "uuid": "29a3c67e-ea01-4039-9a89-5fadc689afab",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-cams-camaras.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-cams-camaras.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3476,13 +3448,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo cams dawe",
             "uuid": "1f0d30c7-a8d3-4823-94a6-c149625eaf8b",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-cams-dawe.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-cams-dawe.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3502,13 +3474,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo Cams Live Draft",
             "uuid": "7acd178e-f738-41ce-8718-9180748e51fd",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-cams-live-draft.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-cams-live-draft.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3528,13 +3500,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo dawe",
             "uuid": "875d041e-5511-4df6-9b69-66fb368b2ef8",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-dawe.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-dawe.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3554,13 +3526,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo empezando",
             "uuid": "c1575207-dbe6-410e-8acf-49db4a3d179d",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-empezamos.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-empezamos.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3580,13 +3552,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo Live Draft",
             "uuid": "f9ea8599-5d42-423d-ba0a-f9628ca26bea",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-live-draft.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-live-draft.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3606,7 +3578,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo patros parada",
             "uuid": "bb888f44-31c2-4208-a38c-e3e1ee8fb5a9",
             "id": "color_source",
@@ -3634,7 +3606,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo patros parada 2",
             "uuid": "b0eebe16-99f5-4500-a73f-486e8589db27",
             "id": "color_source",
@@ -3662,13 +3634,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo terminando",
             "uuid": "38f5e2df-8cb5-41f5-91cd-c5c981f91d2f",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-finalizado.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-finalizado.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3688,13 +3660,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Fondo volvemos",
             "uuid": "a8f63504-03e4-45ed-9866-30822c7d28ff",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-pausa.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-pausa.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -3714,14 +3686,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Game",
             "uuid": "5b342cef-c506-49b0-9951-7e1ae5a019c4",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 15,
                 "custom_size": false,
+                "id_counter": 15,
                 "items": [
                     {
                         "name": "VDO Room Dawe",
@@ -3740,7 +3712,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3779,7 +3750,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3804,7 +3774,7 @@
                     {
                         "name": "LoL",
                         "source_uuid": "a558a210-3024-4b81-994f-cd1631fd79ff",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -3818,7 +3788,6 @@
                         "align": 5,
                         "bounds_type": 1,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 1920.0,
                             "y": 1080.0
@@ -3857,7 +3826,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3896,7 +3864,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3921,7 +3888,7 @@
                     {
                         "name": "Fondo patros parada",
                         "source_uuid": "bb888f44-31c2-4208-a38c-e3e1ee8fb5a9",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3935,7 +3902,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -3974,7 +3940,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4000,7 +3965,7 @@
                         "name": "Grupo Patros Parada Game",
                         "source_uuid": "858a1f44-2b96-456e-9528-c7aa2fe93efc",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 1334.0,
@@ -4013,7 +3978,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4034,7 +3998,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -4054,7 +4018,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4093,7 +4056,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4132,7 +4094,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4158,7 +4119,7 @@
                         "name": "Grupo Patros Game",
                         "source_uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": -30.0,
@@ -4171,7 +4132,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4192,14 +4152,14 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
                         "name": "Tag Blue",
                         "source_uuid": "e62bbf0c-eb46-4182-9b59-4f29a4763648",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 260.0,
@@ -4212,7 +4172,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4241,7 +4200,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1600.0,
+                            "x": 1548.0,
                             "y": 5.0
                         },
                         "scale": {
@@ -4251,7 +4210,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4277,7 +4235,7 @@
                         "name": "Grupo Cabecera Game",
                         "source_uuid": "4ddac7b5-1656-4e60-bc39-28179dcbdd2e",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 260.0,
@@ -4290,7 +4248,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4311,7 +4268,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -4352,19 +4309,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Ganados Blue",
             "uuid": "a0626494-b744-423c-b1ad-063cdd6174ff",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "   0",
+                "text": "   0 ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "align": "center",
                 "valign": "center",
@@ -4389,19 +4346,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Ganados Red",
             "uuid": "3013fa90-aec1-4854-a18d-d2890f1f88a3",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "   0",
+                "text": "   0 ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "align": "center",
                 "valign": "center",
@@ -4426,14 +4383,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Live Draft",
             "uuid": "0b5a222e-87cc-4d27-a08b-d0909ad410c6",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 17,
                 "custom_size": false,
+                "id_counter": 17,
                 "items": [
                     {
                         "name": "Fondo",
@@ -4452,7 +4409,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4491,7 +4447,6 @@
                         "align": 5,
                         "bounds_type": 1,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 1920.0,
                             "y": 1080.0
@@ -4530,7 +4485,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4569,7 +4523,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4595,20 +4548,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4647,7 +4599,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4674,7 +4625,7 @@
                     {
                         "name": "Fase",
                         "source_uuid": "74f541ea-c7b4-4cde-9541-dcd38288d573",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -4688,7 +4639,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4727,7 +4677,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4766,7 +4715,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4805,7 +4753,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4844,7 +4791,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4883,7 +4829,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4908,7 +4853,7 @@
                     {
                         "name": "Cuenta atrás",
                         "source_uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -4922,7 +4867,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -4988,7 +4932,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "LoL",
             "uuid": "a558a210-3024-4b81-994f-cd1631fd79ff",
             "id": "window_capture",
@@ -5010,9 +4954,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5020,13 +4964,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "LoL Juego",
             "uuid": "8701d5ad-2fd9-4f5a-834d-5f9c21c8e470",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
                 "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe",
+                "priority": 1,
                 "method": 2,
                 "cursor": false
             },
@@ -5043,9 +4988,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5053,7 +4998,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Música",
             "uuid": "c0d964df-8cd2-46dd-afe3-5a5dcb8387dc",
             "id": "browser_source",
@@ -5069,7 +5014,7 @@
             "mixers": 193,
             "sync": 0,
             "flags": 0,
-            "volume": 0.53505003452301025,
+            "volume": 0.1156293973326683,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -5090,15 +5035,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Nombre Blue",
             "uuid": "adc5cb4b-7135-46e9-989e-5da93f25c00a",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "outline": true,
                 "extents": true,
-                "text": "ANCESTORS",
+                "outline": true,
+                "text": "K H O R E  GAMING",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "style": "SemiBold Condensed",
@@ -5131,20 +5076,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Nombre Blue Intro",
             "uuid": "25e1bf1d-9bf8-4a31-aa85-36cd255690df",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "outline": true,
                 "extents": true,
-                "text": "  ANCESTORS",
+                "outline": true,
+                "text": " A N C E S T O R S",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 96,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "align": "center",
                 "color": 4294938673,
@@ -5173,19 +5118,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Nombre Red",
             "uuid": "2aabda6c-0821-4db3-9b53-708911853d5e",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
-                "text": "ParakeetSaviors",
+                "text": " A N C E S T O R S ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 48,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "color": 4282855935,
                 "bk_color": 4294938673,
@@ -5211,20 +5156,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Nombre Red Intro",
             "uuid": "88dba2a6-763a-4c76-8f61-036197db57da",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "outline": true,
                 "extents": true,
-                "text": "  ParakeetSaviors",
+                "outline": true,
+                "text": " K H O R E  G A M I N G ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 96,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "align": "center",
                 "color": 4282527728,
@@ -5253,13 +5198,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Overlay Game",
             "uuid": "e2bdd566-6e48-4442-bc69-a9951f99209d",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/game.png"
+                "file": "https://w2avalanche.github.io/streamfiles/Layouts/game.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -5279,7 +5224,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Patros CT",
             "uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
             "id": "slideshow",
@@ -5287,39 +5232,39 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-01.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-01.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-02.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-02.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-03.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-03.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-04.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-04.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-05.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-05.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-06b.png",
+                        "hidden": false,
                         "selected": true,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-06b.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-07.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-07.png"
                     }
                 ]
             },
@@ -5347,7 +5292,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Patros Parada",
             "uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
             "id": "slideshow",
@@ -5355,9 +5300,9 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/springshow/springshow-01.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/springshow/springshow-01.png"
                     }
                 ]
             },
@@ -5385,7 +5330,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Patros Parada Game",
             "uuid": "ff555a9d-5280-4f29-bc96-2d12b3c91a33",
             "id": "slideshow",
@@ -5393,9 +5338,9 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/springshow/springshow-01.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/springshow/springshow-01.png"
                     }
                 ]
             },
@@ -5423,7 +5368,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Patros W2A",
             "uuid": "02204343-650b-4d2a-8c69-46625ea073a7",
             "id": "slideshow",
@@ -5431,14 +5376,14 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/w2a/w2p_1.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/w2a/w2p_1.png"
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/w2a/w2p_2.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/w2a/w2p_2.png"
                     }
                 ]
             },
@@ -5466,14 +5411,40 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
+            "name": "sddefault.jpg",
+            "uuid": "efe3098a-ec7e-463b-b484-e902a9e49e35",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/RoarsBANE/W2A/stream/lealogos/sddefault.jpg"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503316482,
             "name": "Setup",
             "uuid": "ce0e7dcf-3e67-44c0-84a6-8381f2a7cbf3",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 23,
                 "custom_size": false,
+                "id_counter": 23,
                 "items": [
                     {
                         "name": "Banda Patros CT",
@@ -5492,7 +5463,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5518,20 +5488,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5570,7 +5539,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5611,7 +5579,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5650,7 +5617,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5689,7 +5655,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5728,7 +5693,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5767,7 +5731,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5806,7 +5769,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5845,7 +5807,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5884,7 +5845,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5923,7 +5883,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -5944,7 +5903,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -5964,7 +5923,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6003,7 +5961,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6042,7 +5999,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6081,7 +6037,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6120,7 +6075,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6161,7 +6115,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6221,14 +6174,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Stats",
             "uuid": "35077976-57f0-49da-a5dd-64e1f7664b1c",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 16,
                 "custom_size": false,
+                "id_counter": 16,
                 "items": [
                     {
                         "name": "Fondo cámaras",
@@ -6247,7 +6200,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6286,7 +6238,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6325,7 +6276,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6351,20 +6301,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6403,7 +6352,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6430,7 +6378,7 @@
                     {
                         "name": "Fase",
                         "source_uuid": "74f541ea-c7b4-4cde-9541-dcd38288d573",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -6444,7 +6392,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6483,7 +6430,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6522,7 +6468,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6561,7 +6506,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6600,7 +6544,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6639,7 +6582,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6678,7 +6620,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6717,7 +6658,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -6781,20 +6721,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Título Chat",
             "uuid": "b1161f53-f236-4e64-95af-1b445f15381c",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "  CHAT",
-                "outline": false,
                 "extents": true,
+                "outline": false,
+                "text": "  C H A T ",
                 "font": {
                     "face": "Bahnschrift SemiBold SemiConden",
-                    "style": "SemiBold SemiCondensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold SemiCondensed"
                 },
                 "align": "center",
                 "color": 4290624768,
@@ -6818,19 +6758,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Tag Blue",
             "uuid": "e62bbf0c-eb46-4182-9b59-4f29a4763648",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "ANC",
                 "outline": true,
+                "text": "K H G ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "outline_size": 1
             },
@@ -6852,19 +6792,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Tag Red",
             "uuid": "a5ad8d81-c9c9-4557-926f-b068f076d11e",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "PKS",
                 "outline": true,
+                "text": "K H G ",
+                "undo_uuid": "a5ad8d81-c9c9-4557-926f-b068f076d11e",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
-                    "style": "SemiBold Condensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold Condensed"
                 },
                 "outline_size": 1
             },
@@ -6886,22 +6827,24 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "VDO Room Cámaras",
             "uuid": "ce085809-c304-4ef0-891f-89ef10cb3b05",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2a&password=AZaz09_&cover&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
+                "undo_uuid": "ce085809-c304-4ef0-891f-89ef10cb3b05",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
                 "width": 1720,
                 "height": 743,
                 "restart_when_active": false,
+                "css": "@font-face {\n  font-family: 'Anton';\n  font-style: normal;\n  src:\n    local(\"Anton\"),\n    url(\"Anton-Regular.ttf\") format(\"truetype\");\n}\n\n.video-label {\n  font-family: 'Anton', 'Arial', 'Helvetica', sans-serif;\n  font-size: 3rem !important;\n  left: auto;\n  padding: 0 4rem;\n  background-color: #00b4d8;\n  backdrop-filter: none;\n  color: #ffffff;\n  opacity: 1;\n  text-transform: uppercase;\n}",
                 "reroute_audio": true
             },
             "mixers": 225,
             "sync": 0,
             "flags": 0,
-            "volume": 0.72834271192550659,
+            "volume": 0.57334619760513306,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -6922,7 +6865,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503382017,
+                    "prev_ver": 503316482,
                     "name": "Fondo croma",
                     "uuid": "30388bae-f63e-4dbb-a6a6-f271bcc9280a",
                     "id": "chroma_key_filter",
@@ -6948,13 +6891,14 @@
             ]
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "VDO Room Dawe",
             "uuid": "e0f89898-9887-4b10-927a-423160d22de3",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2a&password=AZaz09_&916&cover&margin&sl&chroma&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-dawe.css",
+                "undo_uuid": "e0f89898-9887-4b10-927a-423160d22de3",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
                 "width": 1170,
                 "height": 630,
                 "reroute_audio": true
@@ -6983,7 +6927,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503382017,
+                    "prev_ver": 503316482,
                     "name": "Fondo croma",
                     "uuid": "c95af5fa-a41a-4ef6-adbc-e55443e5d6f7",
                     "id": "chroma_key_filter",
@@ -7009,7 +6953,7 @@
             ]
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "VDO Room Live Draft",
             "uuid": "e697c7a4-f9e5-491a-9a38-d3b0ae896644",
             "id": "browser_source",
@@ -7044,7 +6988,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 503382017,
+                    "prev_ver": 503316482,
                     "name": "Fondo croma",
                     "uuid": "5a9e236e-d5cd-4cde-8c43-36c2267fb65c",
                     "id": "chroma_key_filter",
@@ -7070,14 +7014,14 @@
             ]
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "Volvemos",
             "uuid": "6693d3f3-538f-41b3-a780-ba79445e6381",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 12,
                 "custom_size": false,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Fondo volvemos",
@@ -7096,7 +7040,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7135,7 +7078,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7174,7 +7116,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7200,20 +7141,19 @@
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 360.0,
                             "y": 952.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.0833333730697632,
+                            "y": 1.0847457647323608
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7252,7 +7192,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7293,7 +7232,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7332,7 +7270,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7371,7 +7308,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7410,7 +7346,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7449,7 +7384,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7470,7 +7404,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -7490,7 +7424,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7529,7 +7462,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7568,7 +7500,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7609,7 +7540,6 @@
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
-                        "bounds_crop": false,
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
@@ -7619,6 +7549,44 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "sddefault.jpg",
+                        "source_uuid": "efe3098a-ec7e-463b-b484-e902a9e49e35",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 304.0,
+                            "y": 514.0
+                        },
+                        "scale": {
+                            "x": 0.91250002384185791,
+                            "y": 0.91250002384185791
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 13,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -7657,7 +7625,9 @@
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": []
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7665,7 +7635,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 503382017,
+            "prev_ver": 503316482,
             "name": "VS",
             "uuid": "bc0da30a-f42f-4089-a633-5dcbf63fc026",
             "id": "text_gdiplus",
@@ -7674,9 +7644,9 @@
                 "text": "VS",
                 "font": {
                     "face": "Bahnschrift SemiBold SemiConden",
-                    "style": "SemiBold SemiCondensed",
+                    "flags": 1,
                     "size": 72,
-                    "flags": 1
+                    "style": "SemiBold SemiCondensed"
                 },
                 "color": 4290624768
             },
