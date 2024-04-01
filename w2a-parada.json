@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Cámaras",
-    "current_program_scene": "Cámaras",
+    "current_scene": "Game",
+    "current_program_scene": "Game",
     "scene_order": [
         {
             "name": "Setup"
@@ -4113,30 +4113,6 @@
             "monitoring_type": 0,
             "private_settings": {},
             "filters": [
-                {
-                    "prev_ver": 503382017,
-                    "name": "Fondo croma",
-                    "uuid": "c88f7dfd-ad9f-4ef2-b0e8-85cc824d30ce",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
                 {
                     "prev_ver": 503382017,
                     "name": "Filtro de color",
