@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Game",
-    "current_program_scene": "Game",
+    "current_scene": "Draft TR",
+    "current_program_scene": "Draft TR",
     "scene_order": [
         {
             "name": "Setup"
@@ -2882,7 +2882,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 12,
+                "id_counter": 14,
                 "custom_size": false,
                 "items": [
                     {
@@ -2912,6 +2912,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "VDO Room TR",
+                        "source_uuid": "7ec11630-c9aa-4a7d-9f2d-5e8d9367f1ef",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 392.0,
+                            "y": 198.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -3225,7 +3264,9 @@
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -8090,6 +8131,66 @@
                     "prev_ver": 503382017,
                     "name": "Fondo croma",
                     "uuid": "5a9e236e-d5cd-4cde-8c43-36c2267fb65c",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {},
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503382017,
+            "name": "VDO Room TR",
+            "uuid": "7ec11630-c9aa-4a7d-9f2d-5e8d9367f1ef",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
+                "width": 1137,
+                "height": 686
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382017,
+                    "name": "Fondo croma",
+                    "uuid": "377331ed-0ba7-4d35-a1e4-a1ff17a04485",
                     "id": "chroma_key_filter",
                     "versioned_id": "chroma_key_filter_v2",
                     "settings": {},
