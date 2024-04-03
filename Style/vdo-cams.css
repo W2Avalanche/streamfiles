@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  src:
+    local("Anton"),
+    url("https://w2avalanche.github.io/streamfiles/Fuentes/Anton-Regular.ttf") format("truetype");
+}
+  
+.video-label {
+  font-family: 'Anton', 'Arial', 'Helvetica', sans-serif;
+  font-size: 3rem !important;
+  padding: 10px 40px;
+  background: linear-gradient(to right, #1197b9, transparent);
+  color: #ffffff;
+  opacity: 100;
+  text-transform: uppercase;
+  text-align: left;
+  left: -1px;
+  bottom: -1px;
+}

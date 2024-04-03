@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "current_scene": "Draft TR",
-    "current_program_scene": "Draft TR",
+    "current_program_scene": "Volvemos",
     "scene_order": [
         {
             "name": "Setup"
@@ -3255,6 +3255,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
@@ -3264,9 +3266,7 @@
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": []
+                "libobs.hide_scene_item.12": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7815,7 +7815,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -7973,12 +7973,12 @@
             "versioned_id": "browser_source",
             "settings": {
                 "undo_uuid": "ce085809-c304-4ef0-891f-89ef10cb3b05",
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
                 "width": 1720,
                 "height": 743,
                 "restart_when_active": false,
-                "css": "@font-face {\n  font-family: 'Anton';\n  font-style: normal;\n  src:\n    local(\"Anton\"),\n    url(\"Anton-Regular.ttf\") format(\"truetype\");\n}\n\n.video-label {\n  font-family: 'Anton', 'Arial', 'Helvetica', sans-serif;\n  font-size: 3rem !important;\n  left: auto;\n  padding: 0 4rem;\n  background-color: #00b4d8;\n  backdrop-filter: none;\n  color: #ffffff;\n  opacity: 1;\n  text-transform: uppercase;\n}",
-                "reroute_audio": true
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                "reroute_audio": true,
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css"
             },
             "mixers": 225,
             "sync": 0,
@@ -8037,11 +8037,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "undo_uuid": "e0f89898-9887-4b10-927a-423160d22de3",
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
                 "width": 1170,
                 "height": 630,
-                "css": "@font-face {\n  font-family: 'Anton';\n  font-style: normal;\n  src:\n    local(\"Anton\"),\n    url(\"Anton-Regular.ttf\") format(\"truetype\");\n}\n\n.video-label {\n  font-family: 'Anton', 'Arial', 'Helvetica', sans-serif;\n  font-size: 3rem !important;\n  left: auto;\n  padding: 0 4rem;\n  background-color: #00b4d8;\n  backdrop-filter: none;\n  color: #ffffff;\n  opacity: 1;\n  text-transform: uppercase;\n}",
-                "reroute_audio": true
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                "reroute_audio": true,
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams-dawe.css"
             },
             "mixers": 255,
             "sync": 0,
@@ -8099,7 +8099,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2a&password=AZaz09_&916&cover&margin&sl&chroma&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-dawe.css",
+                "url": "https://vdo.ninja/?scene=1&room=w2a&916&cover&margin&sl&chroma&st&videobitrate=6000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams-dawe.css",
                 "width": 960,
                 "height": 593,
                 "reroute_audio": true
@@ -8160,9 +8160,9 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fwww.sportiariders.com%2Fvdo-w2a-ficzone-cams.css",
                 "width": 1137,
-                "height": 686
+                "height": 686,
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&chroma&s&st&videobitrate=6000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams-dawe.css"
             },
             "mixers": 255,
             "sync": 0,
