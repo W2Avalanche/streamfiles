@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Dawe",
-    "current_program_scene": "Dawe",
+    "current_scene": "Game",
+    "current_program_scene": "Empezamos",
     "scene_order": [
         {
             "name": "Setup"
@@ -77,8 +77,8 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1662,
-                "cy": 127,
+                "cx": 1666,
+                "cy": 128,
                 "id_counter": 0,
                 "items": [
                     {
@@ -89,11 +89,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1324.438232421875,
-                            "y": 0.0
+                            "y": 0.96527099609375
                         },
                         "scale": {
                             "x": 0.99208855628967285,
-                            "y": 0.991801917552948
+                            "y": 0.99180096387863159
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -121,18 +121,57 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1347.2562255859375,
+                            "y": 17.827880859375
+                        },
+                        "scale": {
+                            "x": 0.78989654779434204,
+                            "y": 0.79344266653060913
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Fondo patros 290x118",
                         "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 306.00732421875,
-                            "y": 9.91802978515625
+                            "x": 306.0068359375,
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 0.99208855628967285,
-                            "y": 0.991801917552948
+                            "y": 0.99180090427398682
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -160,45 +199,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Patros Parada",
-                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1342.2919921875,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 0.99208855628967285,
-                            "y": 0.99180185794830322
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 18,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Patros CT",
                         "source_uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
                         "visible": true,
@@ -206,11 +206,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 9.91802978515625
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 0.99208855628967285,
-                            "y": 0.9918021559715271
+                            "y": 0.99180108308792114
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -245,10 +245,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 306.555419921875,
-                            "y": 15.8699951171875
+                            "y": 5.9525146484375
                         },
                         "scale": {
-                            "x": 0.89287853240966797,
+                            "x": 0.89287745952606201,
                             "y": 0.89262294769287109
                         },
                         "align": 5,
@@ -264,6 +264,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1320.4698486328125,
+                            "y": 0.00146484375
+                        },
+                        "scale": {
+                            "x": 0.99208855628967285,
+                            "y": 0.99180090427398682
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 18,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -292,14 +331,16 @@
             "hotkeys": {
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.39": [],
+                "libobs.hide_scene_item.39": [],
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": []
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.18": [],
+                "libobs.hide_scene_item.18": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1607,7 +1648,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -1642,6 +1683,45 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 17.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1662,7 +1742,9 @@
                 "libobs.show_scene_item.24": [],
                 "libobs.hide_scene_item.24": [],
                 "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.27": [],
+                "libobs.hide_scene_item.27": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1822,7 +1904,7 @@
                 "id_counter": 0,
                 "custom_size": true,
                 "cx": 1920,
-                "cy": 1080,
+                "cy": 1082,
                 "items": [
                     {
                         "name": "Castean Jack-Ferox",
@@ -1832,7 +1914,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1871,7 +1953,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1910,7 +1992,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1949,7 +2031,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1988,7 +2070,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2066,7 +2148,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 650.0
+                            "y": 651.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2145,10 +2227,10 @@
             "fade_to_black": false
         },
         {
-            "name": "W2A",
+            "name": "Corte",
             "duration": 300,
             "hotkeys": [],
-            "id": 19,
+            "id": 20,
             "fade_to_black": false
         }
     ],
@@ -2205,9 +2287,63 @@
                     "duration": 500
                 },
                 {
+                    "from_scene": "Cámaras",
+                    "to_scene": "Cámaras",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Dawe",
+                    "to_scene": "Dawe",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Draft TR",
+                    "to_scene": "Draft TR",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Empezamos",
+                    "to_scene": "Empezamos",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Finalizado",
+                    "to_scene": "Finalizado",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Game",
+                    "to_scene": "Game",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Live Draft",
+                    "to_scene": "Live Draft",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
                     "from_scene": "Replay",
                     "to_scene": "Any",
                     "transition": "Replay Outro",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Stats",
+                    "to_scene": "Stats",
+                    "transition": "Desvanecimiento",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Volvemos",
+                    "to_scene": "Volvemos",
+                    "transition": "Desvanecimiento",
                     "duration": 500
                 }
             ],
@@ -2471,7 +2607,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2495,6 +2631,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -3267,7 +3442,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3291,6 +3466,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -3664,7 +3878,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 15,
+                "id_counter": 16,
                 "custom_size": false,
                 "items": [
                     {
@@ -4023,7 +4237,7 @@
                     {
                         "name": "Patros Parada TR",
                         "source_uuid": "e9d724dd-d4f0-43b3-bec1-884b877693fc",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -4047,6 +4261,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 970.0,
+                            "y": 998.0
+                        },
+                        "scale": {
+                            "x": 0.58152174949645996,
+                            "y": 0.58181816339492798
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 16,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -4089,7 +4342,9 @@
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4171,7 +4426,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 26,
+                "id_counter": 27,
                 "items": [
                     {
                         "name": "Fondo empezando",
@@ -4332,7 +4587,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -4356,6 +4611,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -4406,7 +4700,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -4834,7 +5128,7 @@
             "monitoring_type": 0,
             "private_settings": {
                 "transition_duration": 500,
-                "transition": "W2A"
+                "transition": "Desvanecimiento"
             }
         },
         {
@@ -4845,7 +5139,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "SEMIFINALES",
+                "text": "R32",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -5609,7 +5903,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 38,
+                "id_counter": 39,
                 "items": [
                     {
                         "name": "VDO Room Dawe",
@@ -5807,45 +6101,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Overlay game",
-                        "source_uuid": "e1a02dee-75f8-40e7-a332-367a94e3ab19",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 17,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Fondo patros 310x128",
                         "source_uuid": "98615c37-fa39-4d21-84db-86562fb04867",
                         "visible": true,
@@ -5853,11 +6108,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1335.0,
-                            "y": 951.9989013671875
+                            "y": 961.998046875
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999856948852539
+                            "y": 0.99999761581420898
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -5885,18 +6140,57 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1357.9998779296875,
+                            "y": 979.0
+                        },
+                        "scale": {
+                            "x": 0.79619556665420532,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Fondo patros 290x118",
                         "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 308.44757080078125,
-                            "y": 961.9989013671875
+                            "x": 308.44708251953125,
+                            "y": 961.0247802734375
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999856948852539
+                            "y": 0.99999755620956421
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -5924,45 +6218,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Patros Parada",
-                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1352.99609375,
-                            "y": 951.9989013671875
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 0.99999850988388062
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 18,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Patros CT",
                         "source_uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
                         "visible": true,
@@ -5970,11 +6225,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 961.9989013671875
+                            "y": 961.0247802734375
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999880790710449
+                            "y": 0.99999773502349854
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -6009,10 +6264,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 309.00006103515625,
-                            "y": 968.00006103515625
+                            "y": 967.0264892578125
                         },
                         "scale": {
-                            "x": 0.89999878406524658,
+                            "x": 0.89999771118164062,
                             "y": 0.89999997615814209
                         },
                         "align": 5,
@@ -6041,14 +6296,53 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1331.0,
+                            "y": 961.0262451171875
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 0.99999755620956421
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 18,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Grupo Patros Game",
                         "source_uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 951.9989013671875
+                            "y": 961.0247802734375
                         },
                         "scale": {
                             "x": 1.0079745054244995,
@@ -6078,7 +6372,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -6240,6 +6534,45 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Overlay game",
+                        "source_uuid": "e1a02dee-75f8-40e7-a332-367a94e3ab19",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 17,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Castean Jack-Ferox",
                         "source_uuid": "0e55ca91-da04-402c-b535-df5cf4dfdda1",
                         "visible": false,
@@ -6247,7 +6580,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6286,7 +6619,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6325,7 +6658,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6364,7 +6697,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6403,7 +6736,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 2.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6442,7 +6775,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6520,11 +6853,11 @@
                         "name": "Hoy castean",
                         "source_uuid": "abff4641-8012-4e91-9359-985ae8704a7f",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 1.0
+                            "y": 0.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6754,7 +7087,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "  1 ",
+                "text": "  0 ",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -6794,7 +7127,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "   1",
+                "text": "   0",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -6831,10 +7164,10 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/www/w2atv/streamfiles/Layouts/casters/video/ferox-equis-jackalsito.mov",
+                "local_file": "D:/www/w2atv/streamfiles/Layouts/hoy-castean/hoy-castean-ferox-equis-jackalsito.webm",
                 "is_local_file": true,
                 "clear_on_media_end": false,
-                "restart_on_activate": false
+                "restart_on_activate": true
             },
             "mixers": 255,
             "sync": 0,
@@ -7057,7 +7390,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7081,6 +7414,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -7886,6 +8258,32 @@
         },
         {
             "prev_ver": 503382018,
+            "name": "Patro Parada transparente",
+            "uuid": "f4873715-6647-4af4-be62-7872a909938a",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "D:/www/w2atv/streamfiles/Layouts/patros/patro-toledo-transparente.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "Patros CT",
             "uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
             "id": "slideshow",
@@ -8002,7 +8400,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ficzone",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/toledo-matsuri",
                         "selected": false,
                         "hidden": false
                     }
@@ -8327,11 +8725,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1335.0,
-                            "y": 951.99896240234375
+                            "y": 952.97222900390625
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999856948852539
+                            "y": 0.99999761581420898
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -8359,18 +8757,57 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1357.9998779296875,
+                            "y": 969.97418212890625
+                        },
+                        "scale": {
+                            "x": 0.79619556665420532,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Fondo patros 290x118",
                         "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 308.44757080078125,
-                            "y": 961.99896240234375
+                            "x": 308.44708251953125,
+                            "y": 951.99896240234375
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999856948852539
+                            "y": 0.99999755620956421
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -8398,45 +8835,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Patros Parada",
-                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1352.99609375,
-                            "y": 951.99896240234375
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 0.99999850988388062
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 18,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Patros CT",
                         "source_uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
                         "visible": true,
@@ -8444,11 +8842,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 961.99896240234375
+                            "y": 951.99896240234375
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999880790710449
+                            "y": 0.99999773502349854
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -8483,10 +8881,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 309.00006103515625,
-                            "y": 968.0001220703125
+                            "y": 958.00067138671875
                         },
                         "scale": {
-                            "x": 0.89999878406524658,
+                            "x": 0.89999771118164062,
                             "y": 0.89999997615814209
                         },
                         "align": 5,
@@ -8502,6 +8900,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 4,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1331.0,
+                            "y": 952.00042724609375
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 0.99999755620956421
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 18,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -8844,7 +9281,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -8868,6 +9305,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -9680,7 +10156,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -9704,6 +10180,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -10677,7 +11192,7 @@
                     {
                         "name": "Patros Parada",
                         "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -10701,6 +11216,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patro Parada transparente",
+                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 374.0,
+                            "y": 969.0
+                        },
+                        "scale": {
+                            "x": 0.7961956262588501,
+                            "y": 0.80000001192092896
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
