@@ -30,7 +30,7 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Empezamos",
+    "current_scene": "Cámaras",
     "current_program_scene": "Game",
     "scene_order": [
         {
@@ -41,6 +41,9 @@
         },
         {
             "name": "Cámaras"
+        },
+        {
+            "name": "Cámaras Vertical"
         },
         {
             "name": "Dawe"
@@ -548,7 +551,7 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 948,
+                "cx": 1114,
                 "cy": 56,
                 "id_counter": 0,
                 "items": [
@@ -2654,7 +2657,7 @@
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2732,7 +2735,7 @@
                     {
                         "name": "Horario game nombre blue 3",
                         "source_uuid": "459fdf2f-6d90-40a2-992b-524100fdaee7",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2771,7 +2774,7 @@
                     {
                         "name": "Horario game nombre red 3",
                         "source_uuid": "f2fac1c1-3b19-4edc-8434-fa72e2e59ab3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2810,7 +2813,7 @@
                     {
                         "name": "Horario game ganados blue 3",
                         "source_uuid": "dfd6554b-62ca-40da-abad-5d848acaa814",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2849,7 +2852,7 @@
                     {
                         "name": "Horario game ganados red 3",
                         "source_uuid": "f478486f-0cc6-44cb-8dc0-8430163602c6",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2927,7 +2930,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3042,7 +3045,7 @@
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3120,7 +3123,7 @@
                     {
                         "name": "Horario game nombre blue 4",
                         "source_uuid": "c7936b77-507d-49c3-9c97-de2fd6f19267",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3159,7 +3162,7 @@
                     {
                         "name": "Horario game nombre red 4",
                         "source_uuid": "2394fd6e-c281-4eac-8d89-c0926853a2ae",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3198,7 +3201,7 @@
                     {
                         "name": "Horario game ganados blue 4",
                         "source_uuid": "e4489974-3e0b-465b-bb57-9245024928cb",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3237,7 +3240,7 @@
                     {
                         "name": "Horario game ganados red 4",
                         "source_uuid": "c4ba8e0d-e1cc-429d-97a4-f17d2bbc848b",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3315,7 +3318,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -4299,7 +4302,7 @@
             "name": "Replay Intro",
             "id": "obs_stinger_transition",
             "settings": {
-                "path": "https://w2avalanche.github.io/streamfiles/Layouts/transiciones/Instant-replay-intro-splash.webm",
+                "path": "D:/www/w2atv/streamfiles/Layouts/transiciones/Instant-replay-intro-splash.webm",
                 "transition_point": 800
             }
         },
@@ -4307,7 +4310,7 @@
             "name": "Replay Outro",
             "id": "obs_stinger_transition",
             "settings": {
-                "path": "https://w2avalanche.github.io/streamfiles/Layouts/transiciones/Instant-replay-splash.webm",
+                "path": "D:/www/w2atv/streamfiles/Layouts/transiciones/Instant-replay-splash.webm",
                 "transition_point": 800
             }
         }
@@ -4835,6 +4838,404 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {
+                "transition_duration": 500
+            }
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Cámaras Vertical",
+            "uuid": "6fc210a8-466b-4364-a370-d121dc7fbda3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 7,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Fondo cámaras",
+                        "source_uuid": "4b1ff80d-60e7-4722-bfda-ef3caea6f88e",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo cams cámaras",
+                        "source_uuid": "af504f66-39de-41ed-8569-646eb3898a31",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 99.0,
+                            "y": 180.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo banda patros",
+                        "source_uuid": "b11299f2-4641-4662-b827-de28708aaf5a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1720.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 16,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Banda Patros CT",
+                        "source_uuid": "1ba1bd4d-644f-4c34-ac1c-90ba80129b37",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 24,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 366.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Grupo Banda Patros",
+                        "source_uuid": "1100366d-cbd4-4251-99b8-bf2bf4544d6d",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "TierList",
+                        "source_uuid": "e9715b5c-fad2-40c6-8f61-6027da4d9bc5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 115.0,
+                            "y": 195.0
+                        },
+                        "scale": {
+                            "x": 1.3700623512268066,
+                            "y": 1.3699421882629395
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "VDO Vertical",
+                        "source_uuid": "5b1554be-c12e-481e-9305-926034b41db5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1400.0,
+                            "y": 194.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Florituras cámaras",
+                        "source_uuid": "00f5b667-52d8-4134-8d4c-d799d1bf10da",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5760,7 +6161,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -5846,7 +6247,6 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": " SEMIFINAL",
                 "extents": true,
                 "font": {
                     "face": "Sofia Sans Extra Condensed Blac",
@@ -5860,7 +6260,8 @@
                 "bk_opacity": 100,
                 "extents_cx": 360,
                 "extents_cy": 60,
-                "transform": 1
+                "transform": 1,
+                "text": " Qualifier #1"
             },
             "mixers": 0,
             "sync": 0,
@@ -6363,7 +6764,7 @@
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "https://w2avalanche.github.io/streamfiles/Layouts/mascaras/mask-draftlol-video-1920x939.png"
+                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/mask-draftlol-video-1920x939.png"
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -6397,7 +6798,7 @@
                     {
                         "name": "Fondo empezamos",
                         "source_uuid": "bc5040a6-022d-43ef-8720-7f8080618bff",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -6436,7 +6837,7 @@
                     {
                         "name": "Fondo pausa",
                         "source_uuid": "b98679e3-c17e-4d87-80f3-dc5918b37aa8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -6705,7 +7106,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -7023,7 +7424,7 @@
                     {
                         "name": "Horario game 05",
                         "source_uuid": "7e27300a-1507-4302-94ad-e740aa9cd12f",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7064,7 +7465,7 @@
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7142,7 +7543,7 @@
                     {
                         "name": "Horario game nombre blue 4",
                         "source_uuid": "c7936b77-507d-49c3-9c97-de2fd6f19267",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7181,7 +7582,7 @@
                     {
                         "name": "Horario game nombre red 4",
                         "source_uuid": "2394fd6e-c281-4eac-8d89-c0926853a2ae",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7220,7 +7621,7 @@
                     {
                         "name": "Horario game ganados blue 4",
                         "source_uuid": "e4489974-3e0b-465b-bb57-9245024928cb",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7259,7 +7660,7 @@
                     {
                         "name": "Horario game ganados red 4",
                         "source_uuid": "c4ba8e0d-e1cc-429d-97a4-f17d2bbc848b",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7337,7 +7738,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7411,13 +7812,13 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7495,7 +7896,7 @@
                     {
                         "name": "Horario game nombre blue 3",
                         "source_uuid": "459fdf2f-6d90-40a2-992b-524100fdaee7",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7534,7 +7935,7 @@
                     {
                         "name": "Horario game nombre red 3",
                         "source_uuid": "f2fac1c1-3b19-4edc-8434-fa72e2e59ab3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7573,7 +7974,7 @@
                     {
                         "name": "Horario game ganados blue 3",
                         "source_uuid": "dfd6554b-62ca-40da-abad-5d848acaa814",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7612,7 +8013,7 @@
                     {
                         "name": "Horario game ganados red 3",
                         "source_uuid": "f478486f-0cc6-44cb-8dc0-8430163602c6",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7690,7 +8091,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7764,7 +8165,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -8755,7 +9156,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 751.0,
+                            "x": 725.0,
                             "y": 387.0
                         },
                         "scale": {
@@ -8770,7 +9171,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "crop_left": 150,
+                        "crop_left": 124,
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 8,
@@ -8842,7 +9243,6 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "SEMIFINAL",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -8851,7 +9251,9 @@
                 },
                 "align": "center",
                 "extents_cx": 400,
-                "extents_cy": 80
+                "extents_cy": 80,
+                "text": "Qualifier #1",
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -8878,7 +9280,6 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": false,
-                "text": "10:15\nSEMIFINALES",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -8887,7 +9288,9 @@
                 },
                 "align": "left",
                 "extents_cx": 444,
-                "extents_cy": 100
+                "extents_cy": 100,
+                "text": "10:15\nQualifier #1",
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -9446,7 +9849,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-horario-game.png"
+                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-horario-game.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -9472,7 +9875,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-horario-game-activo.png"
+                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-horario-game-activo.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -9683,7 +10086,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-vs.png"
+                "file": "D:/www/w2atv/streamfiles/Layouts/fondo-vs.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -10146,7 +10549,7 @@
                     {
                         "name": "Overlay game",
                         "source_uuid": "e1a02dee-75f8-40e7-a332-367a94e3ab19",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -10698,7 +11101,7 @@
                     {
                         "name": "Grupo Cabecera Game",
                         "source_uuid": "4ddac7b5-1656-4e60-bc39-28179dcbdd2e",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -11057,7 +11460,7 @@
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "https://w2avalanche.github.io/streamfiles/Layouts/mascaras/game-replay.png"
+                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/game-replay.png"
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -11086,7 +11489,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "  2",
+                "text": "  0",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -11163,7 +11566,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "2",
+                "text": "0",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11202,7 +11605,7 @@
             "settings": {
                 "outline": false,
                 "extents": false,
-                "text": "2",
+                "text": "0",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -11237,7 +11640,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "1",
+                "text": "0",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11385,7 +11788,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "1",
+                "text": "0",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11422,7 +11825,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "1",
+                "text": "0",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11459,7 +11862,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "1",
+                "text": "0",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11533,7 +11936,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "17:00",
+                "text": "18:00",
                 "font": {
                     "face": "Sofia Sans Extra Condensed",
                     "style": "Regular",
@@ -11565,13 +11968,13 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "18:00",
                 "font": {
                     "face": "Sofia Sans Extra Condensed",
                     "style": "Regular",
                     "size": 48,
                     "flags": 0
-                }
+                },
+                "text": "19:00"
             },
             "mixers": 0,
             "sync": 0,
@@ -11629,7 +12032,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "20:00",
+                "text": "21:00",
                 "font": {
                     "face": "Sofia Sans Extra Condensed",
                     "style": "Regular",
@@ -11661,7 +12064,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "23:00",
+                "text": "22:00",
                 "font": {
                     "face": "Sofia Sans Extra Condensed",
                     "style": "Regular",
@@ -11695,7 +12098,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "GMK",
+                "text": "DG",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -11732,7 +12135,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "128",
+                "text": "RB",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -11878,7 +12281,6 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "TLS",
                 "outline": false,
                 "extents": true,
                 "font": {
@@ -11889,7 +12291,8 @@
                 },
                 "align": "left",
                 "extents_cx": 120,
-                "extents_cy": 72
+                "extents_cy": 72,
+                "text": "SPR"
             },
             "mixers": 0,
             "sync": 0,
@@ -11917,7 +12320,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "LK",
+                "text": "KG",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12063,7 +12466,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "https://w2avalanche.github.io/streamfiles/Layouts/hoy-castean/hoy-castean-ferox-equis-jackalsito.webm",
+                "local_file": "D:/www/w2atv/streamfiles/Layouts/hoy-castean/hoy-castean-ferox-equis-jackalsito.webm",
                 "is_local_file": true,
                 "clear_on_media_end": false,
                 "restart_on_activate": true
@@ -12810,7 +13213,6 @@
             "settings": {
                 "extents": true,
                 "outline": true,
-                "text": "GMK",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -12824,7 +13226,8 @@
                 "outline_color": 4294938673,
                 "extents_cx": 285,
                 "extents_cy": 50,
-                "transform": 1
+                "transform": 1,
+                "text": "DRAGONS GAMING"
             },
             "mixers": 0,
             "sync": 0,
@@ -12852,7 +13255,7 @@
             "settings": {
                 "extents": true,
                 "outline": true,
-                "text": " GMK",
+                "text": " DG",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -12893,7 +13296,6 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
-                "text": " 128",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -12904,7 +13306,8 @@
                 "bk_color": 4294938673,
                 "outline_size": 1,
                 "outline_color": 4282855935,
-                "transform": 1
+                "transform": 1,
+                "text": " SPORTIA RIDERS"
             },
             "mixers": 0,
             "sync": 0,
@@ -12932,7 +13335,7 @@
             "settings": {
                 "extents": true,
                 "outline": true,
-                "text": " 128",
+                "text": " SPR",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -13033,7 +13436,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "https://w2avalanche.github.io/streamfiles/Layouts/patros/patro-toledo-transparente.png"
+                "file": "D:/www/w2atv/streamfiles/Layouts/patros/patro-toledo-transparente.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -13063,37 +13466,37 @@
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-01.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-01.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-02.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-02.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-03.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-03.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-04.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-04.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-05.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-05.png"
                     },
                     {
                         "hidden": false,
                         "selected": true,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-06b.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-06b.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/ct-07.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/ct-07.png"
                     }
                 ],
                 "slide_time": 8000
@@ -13130,32 +13533,32 @@
             "settings": {
                 "files": [
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-01.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-01.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-02.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-02.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-03.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-03.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-04.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-04.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-05.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-05.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/ct/tr/ct-tr-06.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/ct/tr/ct-tr-06.png",
                         "selected": false,
                         "hidden": false
                     }
@@ -13195,7 +13598,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/sweet-victory/logo-sweet-victory.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/sweet-victory/logo-sweet-victory.png",
                         "selected": false,
                         "hidden": false
                     }
@@ -13233,7 +13636,7 @@
             "settings": {
                 "files": [
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/sweet-victory/logo-sweet-victory.png",
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/sweet-victory/logo-sweet-victory.png",
                         "selected": false,
                         "hidden": false
                     }
@@ -13275,12 +13678,12 @@
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/w2a/w2p_1.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/w2a/w2p_1.png"
                     },
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/w2a/w2p_2.png"
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/w2a/w2p_2.png"
                     }
                 ]
             },
@@ -13314,14 +13717,14 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "SEMIFINAL",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Extr",
                     "style": "ExtraLight Italic",
                     "size": 72,
                     "flags": 2
                 },
-                "transform": 1
+                "transform": 1,
+                "text": "POR DETERMINAR"
             },
             "mixers": 0,
             "sync": 0,
@@ -14729,7 +15132,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -15378,7 +15781,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
-                "text": "GMK",
+                "text": "DG",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -15414,7 +15817,7 @@
                 "outline": true,
                 "undo_uuid": "a5ad8d81-c9c9-4557-926f-b068f076d11e",
                 "extents": true,
-                "text": "128",
+                "text": "SPR",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -15481,6 +15884,40 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "TierList",
+            "uuid": "e9715b5c-fad2-40c6-8f61-6027da4d9bc5",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://pbs.twimg.com/media/GNwz-3BXsAAwKh2?format=jpg&name=medium",
+                "width": 962,
+                "height": 519
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -15844,6 +16281,40 @@
                     "private_settings": {}
                 }
             ]
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "VDO Vertical",
+            "uuid": "5b1554be-c12e-481e-9305-926034b41db5",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&margin&sl&chroma&s&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
+                "width": 400,
+                "height": 712
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         },
         {
             "prev_ver": 503382018,
