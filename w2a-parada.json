@@ -6,7 +6,7 @@
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{f48322c2-edba-43ec-a20e-7a79b20fb31a}"
+            "device_id": "{0.0.1.00000000}.{cae25654-58f9-4bc6-bc5d-b26133fd5410}"
         },
         "mixers": 225,
         "sync": 0,
@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Cámaras",
-    "current_program_scene": "Game",
+    "current_scene": "Dawe",
+    "current_program_scene": "Cámaras Vertical",
     "scene_order": [
         {
             "name": "Setup"
@@ -58,6 +58,9 @@
             "name": "Game"
         },
         {
+            "name": "Replays"
+        },
+        {
             "name": "Replay"
         },
         {
@@ -77,13 +80,13 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1669,
-                "cy": 118,
+                "cx": 1901,
+                "cy": 120,
                 "id_counter": 0,
                 "items": [
                     {
-                        "name": "Fondo patros 290x118",
-                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "name": "Fondo patros TF",
+                        "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
                         "visible": false,
                         "locked": false,
                         "rot": 0.0,
@@ -92,8 +95,8 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.99208855628967285,
-                            "y": 0.99179965257644653
+                            "x": 0.99010419845581055,
+                            "y": 0.99166667461395264
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -105,9 +108,9 @@
                         },
                         "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 1314,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 21,
+                        "id": 43,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -121,18 +124,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros 290x118 2",
-                        "source_uuid": "a50207b5-3f7b-4b34-9c20-33bbb2620e8b",
-                        "visible": false,
+                        "name": "Fondo patros normal",
+                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1318.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.00238037109375
                         },
                         "scale": {
-                            "x": 0.98423808813095093,
-                            "y": 0.98367017507553101
+                            "x": 0.99010419845581055,
+                            "y": 0.98981481790542603
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -142,11 +145,11 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "crop_left": 1324,
+                        "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 240,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 17,
+                        "id": 21,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -167,10 +170,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0003662109375
+                            "y": 2.90802001953125
                         },
                         "scale": {
-                            "x": 0.99208855628967285,
+                            "x": 0.99208861589431763,
                             "y": 0.99179965257644653
                         },
                         "align": 5,
@@ -206,10 +209,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 305.0,
-                            "y": 3.96722412109375
+                            "y": 6.8748779296875
                         },
                         "scale": {
-                            "x": 0.921875,
+                            "x": 0.92187517881393433,
                             "y": 0.91666668653488159
                         },
                         "align": 5,
@@ -245,10 +248,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1321.459716796875,
-                            "y": 0.04278564453125
+                            "y": 2.95050048828125
                         },
                         "scale": {
-                            "x": 0.99208855628967285,
+                            "x": 0.99208861589431763,
                             "y": 0.99179965257644653
                         },
                         "align": 5,
@@ -275,45 +278,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Patro Parada transparente",
-                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1349.23291015625,
-                            "y": 17.8773193359375
-                        },
-                        "scale": {
-                            "x": 0.78989553451538086,
-                            "y": 0.79344266653060913
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 39,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -329,18 +293,36 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": [],
+                "libobs.show_scene_item.43": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A"
+                    }
+                ],
+                "libobs.hide_scene_item.43": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A"
+                    }
+                ],
+                "libobs.show_scene_item.21": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A"
+                    }
+                ],
+                "libobs.hide_scene_item.21": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A"
+                    }
+                ],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": []
+                "libobs.hide_scene_item.18": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -551,7 +533,7 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1114,
+                "cx": 994,
                 "cy": 56,
                 "id_counter": 0,
                 "items": [
@@ -1719,11 +1701,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 2.0
+                            "y": 0.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.8970000147819519,
+                            "y": 0.8970000147819519
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1797,7 +1779,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 651.0
+                            "y": 327.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1920,7 +1902,7 @@
                     {
                         "name": "Fondo horario game activo",
                         "source_uuid": "40cdc3fb-5018-4b90-a5f6-c8ca661913c3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2240,7 +2222,7 @@
                     "flags": 0,
                     "volume": 1.0,
                     "balance": 0.5,
-                    "enabled": false,
+                    "enabled": true,
                     "muted": false,
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -2735,7 +2717,7 @@
                     {
                         "name": "Horario game nombre blue 3",
                         "source_uuid": "459fdf2f-6d90-40a2-992b-524100fdaee7",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2774,7 +2756,7 @@
                     {
                         "name": "Horario game nombre red 3",
                         "source_uuid": "f2fac1c1-3b19-4edc-8434-fa72e2e59ab3",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2813,7 +2795,7 @@
                     {
                         "name": "Horario game ganados blue 3",
                         "source_uuid": "dfd6554b-62ca-40da-abad-5d848acaa814",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2852,7 +2834,7 @@
                     {
                         "name": "Horario game ganados red 3",
                         "source_uuid": "f478486f-0cc6-44cb-8dc0-8430163602c6",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -2930,7 +2912,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3045,7 +3027,7 @@
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3084,7 +3066,7 @@
                     {
                         "name": "Fondo horario game activo",
                         "source_uuid": "40cdc3fb-5018-4b90-a5f6-c8ca661913c3",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3123,7 +3105,7 @@
                     {
                         "name": "Horario game nombre blue 4",
                         "source_uuid": "c7936b77-507d-49c3-9c97-de2fd6f19267",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3162,7 +3144,7 @@
                     {
                         "name": "Horario game nombre red 4",
                         "source_uuid": "2394fd6e-c281-4eac-8d89-c0926853a2ae",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3201,7 +3183,7 @@
                     {
                         "name": "Horario game ganados blue 4",
                         "source_uuid": "e4489974-3e0b-465b-bb57-9245024928cb",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3240,7 +3222,7 @@
                     {
                         "name": "Horario game ganados red 4",
                         "source_uuid": "c4ba8e0d-e1cc-429d-97a4-f17d2bbc848b",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3318,7 +3300,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -3404,7 +3386,7 @@
                     "flags": 0,
                     "volume": 1.0,
                     "balance": 0.5,
-                    "enabled": true,
+                    "enabled": false,
                     "muted": false,
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -4279,6 +4261,142 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Info game",
+            "uuid": "3b993dc7-a886-4af5-99ce-1b8d527a664e",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": true,
+                "cx": 736,
+                "cy": 254,
+                "items": [
+                    {
+                        "name": "Ingame Info",
+                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "Ingo game": [],
+                "Ingo game Hold": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Ingo game",
+                    "uuid": "53877223-7aff-481b-8763-495303842c9f",
+                    "id": "move_source_filter",
+                    "versioned_id": "move_source_filter",
+                    "settings": {
+                        "source": "Ingame Info",
+                        "rot": 0.0,
+                        "rot_sign": " ",
+                        "pos": {
+                            "x": 0.0,
+                            "x_sign": " ",
+                            "y": 0.0,
+                            "y_sign": " "
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "x_sign": " ",
+                            "y": 1.0,
+                            "y_sign": " "
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "x_sign": " ",
+                            "y": 0.0,
+                            "y_sign": " "
+                        },
+                        "crop": {
+                            "left": 0.0,
+                            "left_sign": " ",
+                            "top": 0.0,
+                            "top_sign": " ",
+                            "right": 0.0,
+                            "right_sign": " ",
+                            "bottom": 0.0,
+                            "bottom_sign": " "
+                        },
+                        "transform_text": "pos: x 0.0 y 0.0 rot: 0.0 scale: x 1.000 y 1.000 bounds: x 0.000 y 0.000 crop: l 0 t 0 r 0 b 0",
+                        "enabled_match_moving": false,
+                        "custom_duration": false
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": false,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         }
     ],
     "quick_transitions": [
@@ -4312,6 +4430,19 @@
             "settings": {
                 "path": "D:/www/w2atv/streamfiles/Layouts/transiciones/Instant-replay-splash.webm",
                 "transition_point": 800
+            }
+        },
+        {
+            "name": "Mover",
+            "id": "move_transition",
+            "settings": {
+                "transition_match": "None",
+                "transition_out": "Desvanecimiento",
+                "transition_in": "Desvanecimiento",
+                "position_in": 0,
+                "zoom_in": false,
+                "position_out": 0,
+                "zoom_out": false
             }
         }
     ],
@@ -4488,6 +4619,40 @@
                     "private_settings": {}
                 }
             ]
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Bracket",
+            "uuid": "30a4e164-7124-4813-a065-ba595270d81b",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://circuitotormenta.com/competition/tournament/sweet-victory-7c-q1-7c-1/stage1",
+                "width": 1920,
+                "height": 1080
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         },
         {
             "prev_ver": 503382018,
@@ -4853,7 +5018,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 11,
                 "custom_size": false,
                 "items": [
                     {
@@ -5093,10 +5258,49 @@
                         }
                     },
                     {
-                        "name": "TierList",
-                        "source_uuid": "e9715b5c-fad2-40c6-8f61-6027da4d9bc5",
+                        "name": "Bracket",
+                        "source_uuid": "30a4e164-7124-4813-a065-ba595270d81b",
                         "visible": true,
                         "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 117.0,
+                            "y": 187.0
+                        },
+                        "scale": {
+                            "x": 1.0359711647033691,
+                            "y": 1.0359711647033691
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 374,
+                        "crop_top": 385,
+                        "crop_right": 374,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "TierList",
+                        "source_uuid": "e9715b5c-fad2-40c6-8f61-6027da4d9bc5",
+                        "visible": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 115.0,
@@ -5135,7 +5339,7 @@
                         "name": "VDO Vertical",
                         "source_uuid": "5b1554be-c12e-481e-9305-926034b41db5",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 1400.0,
@@ -5208,6 +5412,45 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Cuenta atrás",
+                        "source_uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 554.0,
+                            "y": 88.0
+                        },
+                        "scale": {
+                            "x": 1.2788461446762085,
+                            "y": 1.2777777910232544
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -5230,12 +5473,16 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": []
+                "libobs.hide_scene_item.7": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6161,7 +6408,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -6248,6 +6495,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
+                "text": " Qualifier #1",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Blac",
                     "style": "Black Italic",
@@ -6260,8 +6508,7 @@
                 "bk_opacity": 100,
                 "extents_cx": 360,
                 "extents_cy": 60,
-                "transform": 1,
-                "text": " Qualifier #1"
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -6728,7 +6975,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://draftlol.dawe.gg/88Y5C9A3",
+                "url": "https://draftlol.dawe.gg/NHnRm_uo",
                 "width": 1920,
                 "height": 939,
                 "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
@@ -6740,7 +6987,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -6798,7 +7045,7 @@
                     {
                         "name": "Fondo empezamos",
                         "source_uuid": "bc5040a6-022d-43ef-8720-7f8080618bff",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -6837,7 +7084,7 @@
                     {
                         "name": "Fondo pausa",
                         "source_uuid": "b98679e3-c17e-4d87-80f3-dc5918b37aa8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -7465,7 +7712,7 @@
                     {
                         "name": "Fondo horario game",
                         "source_uuid": "2fabe266-792d-41ce-b6a8-43b4285a1906",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7504,7 +7751,7 @@
                     {
                         "name": "Fondo horario game activo",
                         "source_uuid": "40cdc3fb-5018-4b90-a5f6-c8ca661913c3",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7543,7 +7790,7 @@
                     {
                         "name": "Horario game nombre blue 4",
                         "source_uuid": "c7936b77-507d-49c3-9c97-de2fd6f19267",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7582,7 +7829,7 @@
                     {
                         "name": "Horario game nombre red 4",
                         "source_uuid": "2394fd6e-c281-4eac-8d89-c0926853a2ae",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7621,7 +7868,7 @@
                     {
                         "name": "Horario game ganados blue 4",
                         "source_uuid": "e4489974-3e0b-465b-bb57-9245024928cb",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7660,7 +7907,7 @@
                     {
                         "name": "Horario game ganados red 4",
                         "source_uuid": "c4ba8e0d-e1cc-429d-97a4-f17d2bbc848b",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7738,7 +7985,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7812,7 +8059,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -7896,7 +8143,7 @@
                     {
                         "name": "Horario game nombre blue 3",
                         "source_uuid": "459fdf2f-6d90-40a2-992b-524100fdaee7",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7935,7 +8182,7 @@
                     {
                         "name": "Horario game nombre red 3",
                         "source_uuid": "f2fac1c1-3b19-4edc-8434-fa72e2e59ab3",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -7974,7 +8221,7 @@
                     {
                         "name": "Horario game ganados blue 3",
                         "source_uuid": "dfd6554b-62ca-40da-abad-5d848acaa814",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -8013,7 +8260,7 @@
                     {
                         "name": "Horario game ganados red 3",
                         "source_uuid": "f478486f-0cc6-44cb-8dc0-8430163602c6",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -8091,7 +8338,7 @@
                     {
                         "name": "Por determinar",
                         "source_uuid": "64d9cb97-6501-467a-8962-a0ef7e843857",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -8165,7 +8412,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -8563,7 +8810,7 @@
                     {
                         "name": "Fondo horario game activo",
                         "source_uuid": "40cdc3fb-5018-4b90-a5f6-c8ca661913c3",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -9243,6 +9490,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
+                "text": "Qualifier #1",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -9252,7 +9500,6 @@
                 "align": "center",
                 "extents_cx": 400,
                 "extents_cy": 80,
-                "text": "Qualifier #1",
                 "transform": 1
             },
             "mixers": 0,
@@ -9280,6 +9527,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": false,
+                "text": "10:15\nQualifier #1",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -9289,7 +9537,6 @@
                 "align": "left",
                 "extents_cx": 444,
                 "extents_cy": 100,
-                "text": "10:15\nQualifier #1",
                 "transform": 1
             },
             "mixers": 0,
@@ -9957,14 +10204,14 @@
         },
         {
             "prev_ver": 503382018,
-            "name": "Fondo patros 290x118",
+            "name": "Fondo patros normal",
             "uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
                 "color": 4278190080,
                 "width": 1920,
-                "height": 118
+                "height": 120
             },
             "mixers": 0,
             "sync": 0,
@@ -9981,18 +10228,48 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Mask patros normal",
+                    "uuid": "b116619a-f2d0-448c-8a56-aeafbe35d46c",
+                    "id": "mask_filter",
+                    "versioned_id": "mask_filter_v2",
+                    "settings": {
+                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/mask-patros.png",
+                        "type": "mask_color_filter.effect",
+                        "color": 4294967295
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
-            "name": "Fondo patros 290x118 2",
-            "uuid": "a50207b5-3f7b-4b34-9c20-33bbb2620e8b",
+            "name": "Fondo patros TF",
+            "uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
             "id": "color_source",
             "versioned_id": "color_source_v3",
             "settings": {
                 "color": 4278190080,
                 "width": 1920,
-                "height": 118
+                "height": 120
             },
             "mixers": 0,
             "sync": 0,
@@ -10009,7 +10286,35 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Mask patros TF",
+                    "uuid": "43f58349-d2f2-41bc-a76b-71e7562c2299",
+                    "id": "mask_filter",
+                    "versioned_id": "mask_filter_v2",
+                    "settings": {
+                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/mask-patros-tf.png"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
@@ -10113,7 +10418,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 40,
+                "id_counter": 43,
                 "items": [
                     {
                         "name": "VDO Room Dawe",
@@ -10272,18 +10577,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros 290x118",
-                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "name": "Fondo patros TF",
+                        "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
                         "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 962.0247802734375
+                            "y": 960.0
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 0.99999630451202393
+                            "y": 1.0018519163131714
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10295,9 +10600,9 @@
                         },
                         "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 1314,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 21,
+                        "id": 43,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -10311,18 +10616,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros 290x118 2",
-                        "source_uuid": "a50207b5-3f7b-4b34-9c20-33bbb2620e8b",
-                        "visible": false,
+                        "name": "Fondo patros normal",
+                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1328.5103759765625,
-                            "y": 963.03302001953125
+                            "x": 0.0,
+                            "y": 960.00238037109375
                         },
                         "scale": {
-                            "x": 0.99208688735961914,
-                            "y": 0.99179965257644653
+                            "x": 1.0,
+                            "y": 0.99998104572296143
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10332,11 +10637,11 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "crop_left": 1324,
+                        "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 240,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 17,
+                        "id": 21,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -10357,11 +10662,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 962.025146484375
+                            "y": 962.9378662109375
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 0.99999630451202393
+                            "x": 1.0020042657852173,
+                            "y": 1.0019862651824951
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10395,12 +10700,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 307.43222045898438,
-                            "y": 966.0247802734375
+                            "x": 308.04840087890625,
+                            "y": 966.94549560546875
                         },
                         "scale": {
-                            "x": 0.92922651767730713,
-                            "y": 0.92424243688583374
+                            "x": 0.93108910322189331,
+                            "y": 0.92608159780502319
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10434,12 +10739,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1331.9976806640625,
-                            "y": 962.06793212890625
+                            "x": 1334.6673583984375,
+                            "y": 962.9808349609375
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 0.99999630451202393
+                            "x": 1.0020042657852173,
+                            "y": 1.0019862651824951
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10467,45 +10772,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Patro Parada transparente",
-                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1359.992431640625,
-                            "y": 980.04986572265625
-                        },
-                        "scale": {
-                            "x": 0.79619455337524414,
-                            "y": 0.80000001192092896
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 39,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Grupo Patros Game",
                         "source_uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
                         "visible": true,
@@ -10513,11 +10779,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 962.0247802734375
+                            "y": 960.0
                         },
                         "scale": {
-                            "x": 1.0079745054244995,
-                            "y": 1.008264422416687
+                            "x": 1.0099947452545166,
+                            "y": 1.0102708339691162
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10547,9 +10813,89 @@
                         }
                     },
                     {
+                        "name": "Ingame Info",
+                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 600.0,
+                            "y": 826.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Info game",
+                        "source_uuid": "3b993dc7-a886-4af5-99ce-1b8d527a664e",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 600.0,
+                            "y": 826.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 42,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
                         "name": "Overlay game",
                         "source_uuid": "e1a02dee-75f8-40e7-a332-367a94e3ab19",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -10573,45 +10919,6 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 17,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Ingame Info",
-                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 599.0,
-                            "y": 826.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -10788,11 +11095,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 2.0
+                            "y": 0.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.8970000147819519,
+                            "y": 0.8970000147819519
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -10866,7 +11173,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 651.0
+                            "y": 327.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -10904,7 +11211,7 @@
                     {
                         "name": "Hoy castean",
                         "source_uuid": "abff4641-8012-4e91-9359-985ae8704a7f",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -11101,7 +11408,7 @@
                     {
                         "name": "Grupo Cabecera Game",
                         "source_uuid": "4ddac7b5-1656-4e60-bc39-28179dcbdd2e",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -11164,52 +11471,145 @@
                 "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.17": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.17": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.show_scene_item.20": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.20": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
+                "libobs.show_scene_item.42": [],
+                "libobs.hide_scene_item.42": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": [],
                 "libobs.show_scene_item.28": [],
                 "libobs.hide_scene_item.28": [],
-                "libobs.show_scene_item.15": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.15": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ]
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": [],
+                "Info game normal": [],
+                "Info game normal Hold": [],
+                "Info game TF": [],
+                "Info game TF Hold": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {
-                "transition_duration": 500,
-                "transition": "Desvanecimiento"
-            }
+                "transition_duration": 500
+            },
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Info game normal",
+                    "uuid": "2520628c-3ea6-4c15-b563-9692a16f0d40",
+                    "id": "move_source_filter",
+                    "versioned_id": "move_source_filter",
+                    "settings": {
+                        "transform_text": "pos: x 600.0 y 826.0 rot: 0.0 scale: x 1.000 y 1.000 crop: l 0 t 0 r 0 b 0",
+                        "source": "Info game",
+                        "rot": 0.0,
+                        "rot_sign": " ",
+                        "pos": {
+                            "x": 600.0,
+                            "x_sign": " ",
+                            "y": 826.0,
+                            "y_sign": " "
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "x_sign": " ",
+                            "y": 1.0,
+                            "y_sign": " "
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "x_sign": " ",
+                            "y": 0.0,
+                            "y_sign": " "
+                        },
+                        "crop": {
+                            "left": 0.0,
+                            "left_sign": " ",
+                            "top": 0.0,
+                            "top_sign": " ",
+                            "right": 0.0,
+                            "right_sign": " ",
+                            "bottom": 0.0,
+                            "bottom_sign": " "
+                        },
+                        "next_move_on": 1,
+                        "next_move": "Info game TF"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": false,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503382018,
+                    "name": "Info game TF",
+                    "uuid": "5733e2fe-1f9c-4456-85bd-799fbc713800",
+                    "id": "move_source_filter",
+                    "versioned_id": "move_source_filter",
+                    "settings": {
+                        "transform_text": "pos: x 628.0 y 949.0 rot: 0.0 scale: x 0.902 y 0.902 crop: l 0 t 0 r 0 b 0",
+                        "source": "Info game",
+                        "rot": 0.0,
+                        "rot_sign": " ",
+                        "pos": {
+                            "x": 628.0,
+                            "x_sign": " ",
+                            "y": 949.0,
+                            "y_sign": " "
+                        },
+                        "scale": {
+                            "x": 0.90200001001358032,
+                            "x_sign": " ",
+                            "y": 0.90200001001358032,
+                            "y_sign": " "
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "x_sign": " ",
+                            "y": 0.0,
+                            "y_sign": " "
+                        },
+                        "crop": {
+                            "left": 0.0,
+                            "left_sign": " ",
+                            "top": 0.0,
+                            "top_sign": " ",
+                            "right": 0.0,
+                            "right_sign": " ",
+                            "bottom": 0.0,
+                            "bottom_sign": " "
+                        },
+                        "next_move_on": 1,
+                        "next_move": "Info game normal"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": false,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
@@ -11566,7 +11966,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "0",
+                "text": "1",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11788,7 +12188,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "0",
+                "text": "1",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11825,7 +12225,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "0",
+                "text": "1",
                 "outline": false,
                 "extents": false,
                 "font": {
@@ -11968,13 +12368,13 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "text": "19:00",
                 "font": {
                     "face": "Sofia Sans Extra Condensed",
                     "style": "Regular",
                     "size": 48,
                     "flags": 0
-                },
-                "text": "19:00"
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -12135,7 +12535,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "RB",
+                "text": "TTL",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12170,7 +12570,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "text": "SLT",
+                "text": "LK",
                 "outline": false,
                 "extents": true,
                 "font": {
@@ -12209,7 +12609,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "128",
+                "text": "GMK",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12283,6 +12683,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
+                "text": "SPR",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12291,8 +12692,7 @@
                 },
                 "align": "left",
                 "extents_cx": 120,
-                "extents_cy": 72,
-                "text": "SPR"
+                "extents_cy": 72
             },
             "mixers": 0,
             "sync": 0,
@@ -12320,7 +12720,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "KG",
+                "text": "GDG",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12357,7 +12757,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "ANC",
+                "text": "SLT",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12394,7 +12794,7 @@
             "settings": {
                 "outline": false,
                 "extents": true,
-                "text": "GMK",
+                "text": "SLT",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Semi",
                     "style": "SemiBold Italic",
@@ -12466,7 +12866,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/www/w2atv/streamfiles/Layouts/hoy-castean/hoy-castean-ferox-equis-jackalsito.webm",
+                "local_file": "D:/www/w2atv/streamfiles/Layouts/hoy-castean/hoy-castean-equis-jackalsito.webm",
                 "is_local_file": true,
                 "clear_on_media_end": false,
                 "restart_on_activate": true
@@ -12477,7 +12877,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -13213,6 +13613,7 @@
             "settings": {
                 "extents": true,
                 "outline": true,
+                "text": "SLTITANS",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -13226,8 +13627,7 @@
                 "outline_color": 4294938673,
                 "extents_cx": 285,
                 "extents_cy": 50,
-                "transform": 1,
-                "text": "DRAGONS GAMING"
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -13255,7 +13655,7 @@
             "settings": {
                 "extents": true,
                 "outline": true,
-                "text": " DG",
+                "text": " SLT",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -13296,6 +13696,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
+                "text": " GMASK",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -13306,8 +13707,7 @@
                 "bk_color": 4294938673,
                 "outline_size": 1,
                 "outline_color": 4282855935,
-                "transform": 1,
-                "text": " SPORTIA RIDERS"
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -13335,7 +13735,7 @@
             "settings": {
                 "extents": true,
                 "outline": true,
-                "text": " SPR",
+                "text": " GMK",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -13428,32 +13828,6 @@
                     "private_settings": {}
                 }
             ]
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Patro Parada transparente",
-            "uuid": "f4873715-6647-4af4-be62-7872a909938a",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/www/w2atv/streamfiles/Layouts/patros/patro-toledo-transparente.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
         },
         {
             "prev_ver": 503382018,
@@ -13717,14 +14091,14 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "text": "POR DETERMINAR",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Extr",
                     "style": "ExtraLight Italic",
                     "size": 72,
                     "flags": 2
                 },
-                "transform": 1,
-                "text": "POR DETERMINAR"
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -13793,8 +14167,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros 290x118",
-                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "name": "Fondo patros TF",
+                        "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
                         "visible": false,
                         "locked": false,
                         "rot": 0.0,
@@ -13803,8 +14177,8 @@
                             "y": 962.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 0.99999630451202393
+                            "x": 0.99799978733062744,
+                            "y": 0.99986225366592407
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -13816,9 +14190,9 @@
                         },
                         "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 1314,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 21,
+                        "id": 43,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -13832,18 +14206,18 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros 290x118 2",
-                        "source_uuid": "a50207b5-3f7b-4b34-9c20-33bbb2620e8b",
-                        "visible": false,
+                        "name": "Fondo patros normal",
+                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1328.5103759765625,
-                            "y": 963.00823974609375
+                            "x": 0.0,
+                            "y": 962.00238037109375
                         },
                         "scale": {
-                            "x": 0.99208688735961914,
-                            "y": 0.99179965257644653
+                            "x": 0.99799978733062744,
+                            "y": 0.99799507856369019
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -13853,11 +14227,11 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "crop_left": 1324,
+                        "crop_left": 0,
                         "crop_top": 0,
-                        "crop_right": 240,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 17,
+                        "id": 21,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -13878,7 +14252,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 962.0003662109375
+                            "y": 964.93206787109375
                         },
                         "scale": {
                             "x": 1.0,
@@ -13917,10 +14291,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 307.43222045898438,
-                            "y": 966.0
+                            "y": 968.93170166015625
                         },
                         "scale": {
-                            "x": 0.92922651767730713,
+                            "x": 0.92922669649124146,
                             "y": 0.92424243688583374
                         },
                         "align": 5,
@@ -13956,7 +14330,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 1331.9976806640625,
-                            "y": 962.04315185546875
+                            "y": 964.97491455078125
                         },
                         "scale": {
                             "x": 1.0,
@@ -13975,45 +14349,6 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 18,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Patro Parada transparente",
-                        "source_uuid": "f4873715-6647-4af4-be62-7872a909938a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1359.992431640625,
-                            "y": 980.02508544921875
-                        },
-                        "scale": {
-                            "x": 0.79619455337524414,
-                            "y": 0.80000001192092896
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 39,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -14339,7 +14674,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -14416,6 +14751,36 @@
                 "transition": "Replay Intro",
                 "transition_duration": 500
             }
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Replays",
+            "uuid": "e1b27414-cd29-408b-9bbf-5fcb1a90e3c0",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         },
         {
             "prev_ver": 503382018,
@@ -14935,7 +15300,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         }
                     },
                     {
@@ -15781,7 +16146,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "outline": true,
-                "text": "DG",
+                "text": "SLT",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -15817,7 +16182,7 @@
                 "outline": true,
                 "undo_uuid": "a5ad8d81-c9c9-4557-926f-b068f076d11e",
                 "extents": true,
-                "text": "SPR",
+                "text": "GMK",
                 "font": {
                     "face": "Bahnschrift SemiBold Condensed",
                     "flags": 1,
@@ -16291,7 +16656,8 @@
             "settings": {
                 "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&margin&sl&chroma&s&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
                 "width": 400,
-                "height": 712
+                "height": 712,
+                "reroute_audio": true
             },
             "mixers": 255,
             "sync": 0,
@@ -16314,7 +16680,64 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Compresor",
+                    "uuid": "684bcbf5-2399-4568-902b-37922aa0daf7",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "threshold": -13.0,
+                        "attack_time": 1,
+                        "output_gain": 1.8999999999999999
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503382018,
+                    "name": "Limitador",
+                    "uuid": "9cb60254-dc0b-4ff4-a546-fc32def6ae14",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -1.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
