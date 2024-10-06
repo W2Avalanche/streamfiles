@@ -14,7 +14,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Draft TR",
-    "current_program_scene": "Draft TR",
+    "current_scene": "Game",
+    "current_program_scene": "Game",
     "scene_order": [
         {
             "name": "Setup"
@@ -841,12 +841,38 @@
         },
         {
             "prev_ver": 503382018,
+            "name": "Bracket",
+            "uuid": "aa1c75e1-939d-46bf-b630-c861993fc7bb",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "D:/www/w2atv/streamfiles/Layouts/bracket-ultimate.jpg"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "Cámaras",
             "uuid": "2abf0da4-a320-4d59-861a-952bb8b00903",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 5,
+                "id_counter": 6,
                 "custom_size": false,
                 "items": [
                     {
@@ -1004,6 +1030,45 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Bracket",
+                        "source_uuid": "aa1c75e1-939d-46bf-b630-c861993fc7bb",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 82.0,
+                            "y": 95.0
+                        },
+                        "scale": {
+                            "x": 1.1018749475479126,
+                            "y": 1.1020114421844482
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 45,
+                        "crop_right": 0,
+                        "crop_bottom": 204,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1027,7 +1092,44 @@
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "Cleanfeed",
+            "uuid": "a6360bae-8fa3-453a-a69e-1ea5f6eeaac5",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://youtube.com/live/Fw3Mx63vlio",
+                "width": 1920,
+                "height": 1080,
+                "reroute_audio": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1490,12 +1592,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.11": [],
@@ -2113,7 +2215,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 17,
+                "id_counter": 19,
                 "custom_size": false,
                 "items": [
                     {
@@ -2143,6 +2245,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Cleanfeed",
+                        "source_uuid": "a6360bae-8fa3-453a-a69e-1ea5f6eeaac5",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 19,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2276,7 +2417,7 @@
                         "name": "Patros CT",
                         "source_uuid": "27672bc2-b8e5-49fb-a94f-0bd081c883df",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -2299,6 +2440,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros W2A",
+                        "source_uuid": "8924f4a3-4a39-43b2-8945-96c1f4f3719c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 307.0,
+                            "y": 960.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 18,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2802,6 +2982,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.1": [],
@@ -2810,6 +2992,8 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.18": [],
+                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.11": [],
@@ -3236,6 +3420,46 @@
         },
         {
             "prev_ver": 503382018,
+            "name": "Patros W2A",
+            "uuid": "8924f4a3-4a39-43b2-8945-96c1f4f3719c",
+            "id": "slideshow",
+            "versioned_id": "slideshow_v2",
+            "settings": {
+                "files": [
+                    {
+                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/w2a",
+                        "selected": false,
+                        "hidden": false
+                    }
+                ],
+                "slide_time": 8000,
+                "use_custom_size": "292x118"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "SlideShow.PlayPause": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": [],
+                "SlideShow.NextSlide": [],
+                "SlideShow.PreviousSlide": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "Setup",
             "uuid": "5e0a2747-c7ea-42c4-b476-2fb5f59deb54",
             "id": "scene",
@@ -3323,7 +3547,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&s&st&videobitrate=10000&fakeguests=3&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&s&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
                 "width": 1758,
                 "height": 713,
                 "css": "body { background-color: rgba(15, 23, 34, 100); margin: 0px auto; overflow: hidden; }",
@@ -3359,7 +3583,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&s&st&videobitrate=10000&fakeguests=3&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin&sl&s&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-cams.css",
                 "width": 1157,
                 "height": 706,
                 "css": "body { background-color: rgba(15, 23, 34, 100); margin: 0px auto; overflow: hidden; }",
