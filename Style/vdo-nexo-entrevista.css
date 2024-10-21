@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.video-label {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem !important;
+    background: rgb(11,20,40);
+    background: linear-gradient(90deg, rgba(11,20,40,1) 40%, rgba(11,20,40,0) 100%);
+    color: #1fbae6;
+    text-transform: uppercase;
+    padding: 5px 10px 15px;
+    bottom: 0.0vh;
+    left: 0;
+    line-height: normal;
+}
+
+.video-label>span:nth-child(2) {
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+}
+
+.video-label>span:nth-child(3) {
+    font-size: 1.5rem !important;
+    font-weight: 400;
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+}
+
+.video-label>span:nth-child(4) {
+    display: none;
+}
