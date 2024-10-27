@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Replay",
-    "current_program_scene": "Replay",
+    "current_scene": "Setup",
+    "current_program_scene": "Setup",
     "scene_order": [
         {
             "name": "Setup"
@@ -92,23 +92,23 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1901,
-                "cy": 120,
+                "cx": 1929,
+                "cy": 121,
                 "id_counter": 0,
                 "items": [
                     {
                         "name": "Fondo patros TF",
                         "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
+                            "x": 8.910980224609375,
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.99010413885116577,
-                            "y": 0.99166667461395264
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -139,15 +139,15 @@
                         "name": "Fondo patros normal",
                         "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.00238037109375
+                            "y": 0.99090576171875
                         },
                         "scale": {
-                            "x": 0.99010413885116577,
-                            "y": 0.98981481790542603
+                            "x": 0.99732369184494019,
+                            "y": 0.99808222055435181
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -181,11 +181,11 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
+                            "x": 8.910980224609375,
                             "y": 2.9080810546875
                         },
                         "scale": {
-                            "x": 0.99208855628967285,
+                            "x": 0.99208861589431763,
                             "y": 0.99179965257644653
                         },
                         "align": 5,
@@ -220,11 +220,11 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 305.0,
-                            "y": 6.8748779296875
+                            "x": 313.91104125976562,
+                            "y": 6.8751220703125
                         },
                         "scale": {
-                            "x": 0.92187565565109253,
+                            "x": 0.92187643051147461,
                             "y": 0.91666668653488159
                         },
                         "align": 5,
@@ -259,11 +259,11 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1362.384033203125,
+                            "x": 1371.2960205078125,
                             "y": 19.7967529296875
                         },
                         "scale": {
-                            "x": 0.83950614929199219,
+                            "x": 0.83950692415237427,
                             "y": 0.8439633846282959
                         },
                         "align": 5,
@@ -298,7 +298,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 404.0,
+                            "x": 412.91094970703125,
                             "y": 18.0
                         },
                         "scale": {
@@ -1400,7 +1400,7 @@
             "settings": {
                 "custom_size": true,
                 "cx": 1920,
-                "cy": 1407,
+                "cy": 1080,
                 "id_counter": 0,
                 "items": [
                     {
@@ -1414,8 +1414,8 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.8970000147819519,
-                            "y": 0.8970000147819519
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1445,7 +1445,7 @@
                     {
                         "name": "Castean 02",
                         "source_uuid": "4ee4c089-ae33-4119-8938-08ea23dbd2de",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -5896,6 +5896,284 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Marco",
+            "uuid": "8fc8a9c2-57c0-4125-93e9-8eaacac6ea42",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": true,
+                "cx": 736,
+                "cy": 254,
+                "items": [
+                    {
+                        "name": "Marco ingame",
+                        "source_uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 47,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fase en marco",
+                        "source_uuid": "1b567367-6a3f-47cf-a1f5-e2737b4a7333",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 26.0,
+                            "y": 5.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 50,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Nombre parada marco",
+                        "source_uuid": "1855a3de-af98-4456-86b5-4381effddf2a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 151.0,
+                            "y": 5.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 51,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "CT marco",
+                        "source_uuid": "22f02614-8768-4043-9ce8-e27fecb742ef",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 413.0,
+                            "y": 5.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 52,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Temporada marco",
+                        "source_uuid": "5ae91f02-7779-4035-bfaa-2e3e6f83be0c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 613.0,
+                            "y": 5.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 53,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Separador marco",
+                        "source_uuid": "1fef674f-6d1d-4803-8eae-8310b990ae23",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 400.0,
+                            "y": 5.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 54,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.47": [],
+                "libobs.hide_scene_item.47": [],
+                "libobs.show_scene_item.50": [],
+                "libobs.hide_scene_item.50": [],
+                "libobs.show_scene_item.51": [],
+                "libobs.hide_scene_item.51": [],
+                "libobs.show_scene_item.52": [],
+                "libobs.hide_scene_item.52": [],
+                "libobs.show_scene_item.53": [],
+                "libobs.hide_scene_item.53": [],
+                "libobs.show_scene_item.54": [],
+                "libobs.hide_scene_item.54": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         }
     ],
     "quick_transitions": [
@@ -5994,8 +6272,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -6024,8 +6302,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -6522,10 +6800,10 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }",
                 "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/jack-zurbex-abratsuki.png",
                 "width": 1920,
-                "height": 1080
+                "height": 1080,
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
             },
             "mixers": 255,
             "sync": 0,
@@ -6579,6 +6857,39 @@
                 "libobs.push-to-talk": [],
                 "ObsBrowser.Refresh": []
             },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "CT marco",
+            "uuid": "22f02614-8768-4043-9ce8-e27fecb742ef",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "CIRCUITO TORMENTA",
+                "font": {
+                    "face": "TacticSans-Bld",
+                    "style": "Regular",
+                    "size": 20,
+                    "flags": 0
+                },
+                "color": 4294940161
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -7223,6 +7534,7 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
+                "text": "FASE FINAL",
                 "undo_uuid": "f74c37d9-e16b-40c1-8c0e-d14917cf39ab",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Blac",
@@ -7236,8 +7548,7 @@
                 "bk_opacity": 100,
                 "extents_cx": 500,
                 "extents_cy": 60,
-                "transform": 1,
-                "text": "FASE FINAL"
+                "transform": 1
             },
             "mixers": 0,
             "sync": 0,
@@ -11715,7 +12026,6 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "   FINAL",
                 "font": {
                     "face": "TacticSans-Bld",
                     "flags": 0,
@@ -11725,7 +12035,40 @@
                 "align": "center",
                 "extents_cx": 400,
                 "extents_cy": 80,
-                "transform": 1
+                "transform": 1,
+                "text": "   FASE FINAL"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Fase en marco",
+            "uuid": "1b567367-6a3f-47cf-a1f5-e2737b4a7333",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "font": {
+                    "face": "TacticSans-Bld",
+                    "style": "Regular",
+                    "size": 20,
+                    "flags": 0
+                },
+                "text": "FASE FINAL -"
             },
             "mixers": 0,
             "sync": 0,
@@ -12457,7 +12800,8 @@
                     "settings": {
                         "image_path": "https://w2avalanche.github.io/streamfiles/Layouts/mascaras/mask-patros.png",
                         "type": "mask_color_filter.effect",
-                        "color": 4294967295
+                        "color": 4294967295,
+                        "stretch": true
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -12645,7 +12989,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 48,
+                "id_counter": 55,
                 "items": [
                     {
                         "name": "VDO no video",
@@ -12804,320 +13148,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Fondo patros TF",
-                        "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 959.9996337890625
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0018519163131714
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 43,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Fondo patros normal",
-                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 960.00201416015625
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 0.99998104572296143
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 21,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Patros CT",
-                        "source_uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 962.93756103515625
-                        },
-                        "scale": {
-                            "x": 1.0020042657852173,
-                            "y": 1.0019862651824951
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Patros W2A",
-                        "source_uuid": "02204343-650b-4d2a-8c69-46625ea073a7",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 308.04840087890625,
-                            "y": 966.94512939453125
-                        },
-                        "scale": {
-                            "x": 0.93108958005905151,
-                            "y": 0.92608159780502319
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Patros Parada",
-                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1376.000732421875,
-                            "y": 979.99969482421875
-                        },
-                        "scale": {
-                            "x": 0.84789681434631348,
-                            "y": 0.85263156890869141
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 18,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Logo w2a color Url",
-                        "source_uuid": "d6cb6895-2f20-42c7-ab73-57f3ef2ca9e2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 408.03787231445312,
-                            "y": 978.18450927734375
-                        },
-                        "scale": {
-                            "x": 0.13026998937129974,
-                            "y": 0.13030563294887543
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 21,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Grupo Patros Game",
-                        "source_uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 959.9996337890625
-                        },
-                        "scale": {
-                            "x": 1.0099947452545166,
-                            "y": 1.0102708339691162
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 14,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "Marco ingame",
-                        "source_uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 598.0,
-                            "y": 826.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 47,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Overlay game",
                         "source_uuid": "e1a02dee-75f8-40e7-a332-367a94e3ab19",
                         "visible": true,
@@ -13157,6 +13187,556 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Fondo patros TF",
+                        "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 4.291534423828125e-5,
+                            "y": 959.9989013671875
+                        },
+                        "scale": {
+                            "x": 1.0099947452545166,
+                            "y": 1.0102708339691162
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 43,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo patros normal",
+                        "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -9.0,
+                            "y": 961.0
+                        },
+                        "scale": {
+                            "x": 1.0072916746139526,
+                            "y": 1.0083333253860474
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 21,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros CT",
+                        "source_uuid": "bc431c8b-9198-4b6e-b5e9-61a709cfea83",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 4.291534423828125e-5,
+                            "y": 962.93682861328125
+                        },
+                        "scale": {
+                            "x": 1.0020042657852173,
+                            "y": 1.0019862651824951
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros W2A",
+                        "source_uuid": "02204343-650b-4d2a-8c69-46625ea073a7",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 308.04849243164062,
+                            "y": 966.94464111328125
+                        },
+                        "scale": {
+                            "x": 0.93109035491943359,
+                            "y": 0.92608159780502319
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1376.0018310546875,
+                            "y": 979.99896240234375
+                        },
+                        "scale": {
+                            "x": 0.84789758920669556,
+                            "y": 0.85263156890869141
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 18,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Logo w2a color Url",
+                        "source_uuid": "d6cb6895-2f20-42c7-ab73-57f3ef2ca9e2",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 408.03790283203125,
+                            "y": 978.18377685546875
+                        },
+                        "scale": {
+                            "x": 0.13026998937129974,
+                            "y": 0.13030563294887543
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 21,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Grupo Patros Game",
+                        "source_uuid": "31d231cd-d074-48d3-94cd-4bb88b07c6de",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -9.0,
+                            "y": 959.9989013671875
+                        },
+                        "scale": {
+                            "x": 1.0099947452545166,
+                            "y": 1.0102708339691162
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "Marco ingame",
+                        "source_uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 600.0,
+                            "y": 826.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 47,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fase en marco",
+                        "source_uuid": "1b567367-6a3f-47cf-a1f5-e2737b4a7333",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 626.0,
+                            "y": 831.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 50,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Nombre parada marco",
+                        "source_uuid": "1855a3de-af98-4456-86b5-4381effddf2a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 751.0,
+                            "y": 831.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 51,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "CT marco",
+                        "source_uuid": "22f02614-8768-4043-9ce8-e27fecb742ef",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1013.0,
+                            "y": 831.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 52,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Temporada marco",
+                        "source_uuid": "5ae91f02-7779-4035-bfaa-2e3e6f83be0c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1213.0,
+                            "y": 831.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 53,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Separador marco",
+                        "source_uuid": "1fef674f-6d1d-4803-8eae-8310b990ae23",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1000.0,
+                            "y": 831.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 54,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Marco",
+                        "source_uuid": "8fc8a9c2-57c0-4125-93e9-8eaacac6ea42",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 600.0,
+                            "y": 826.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 55,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
                         "name": "Castean 01",
                         "source_uuid": "c1a3190c-4524-4dea-93a3-75f194227531",
                         "visible": true,
@@ -13167,8 +13747,8 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.8970000147819519,
-                            "y": 0.8970000147819519
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -13198,7 +13778,7 @@
                     {
                         "name": "Castean 02",
                         "source_uuid": "4ee4c089-ae33-4119-8938-08ea23dbd2de",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -13280,7 +13860,7 @@
                     {
                         "name": "Hoy castean",
                         "source_uuid": "abff4641-8012-4e91-9359-985ae8704a7f",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -13546,8 +14126,8 @@
                 "libobs.hide_scene_item.28": [],
                 "libobs.show_scene_item.15": [],
                 "libobs.hide_scene_item.15": [],
-                "libobs.show_scene_item.47": [],
-                "libobs.hide_scene_item.47": []
+                "libobs.show_scene_item.55": [],
+                "libobs.hide_scene_item.55": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -17107,6 +17687,39 @@
         },
         {
             "prev_ver": 503447555,
+            "name": "Nombre parada marco",
+            "uuid": "1855a3de-af98-4456-86b5-4381effddf2a",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "ESPORTS SERIES MADRID",
+                "color": 4294940161,
+                "font": {
+                    "face": "TacticSans-Bld",
+                    "style": "Regular",
+                    "size": 20,
+                    "flags": 0
+                }
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
             "name": "Nombre Red",
             "uuid": "2aabda6c-0821-4db3-9b53-708911853d5e",
             "id": "text_gdiplus",
@@ -17389,9 +18002,9 @@
             "settings": {
                 "files": [
                     {
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/Layouts/patros/esm/logo-parada-esm.png",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/esm/logo-parada-esm.png"
                     }
                 ]
             },
@@ -17625,16 +18238,16 @@
                     {
                         "name": "Fondo patros TF",
                         "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
+                            "x": 8.9820413589477539,
                             "y": 960.0
                         },
                         "scale": {
-                            "x": 0.99799972772598267,
-                            "y": 0.99986225366592407
+                            "x": 1.0079745054244995,
+                            "y": 1.008264422416687
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -17665,15 +18278,15 @@
                         "name": "Fondo patros normal",
                         "source_uuid": "be40deec-d4e3-4941-81bb-8c6b14a4163e",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 960.00238037109375
+                            "y": 960.99908447265625
                         },
                         "scale": {
-                            "x": 0.99799972772598267,
-                            "y": 0.99799507856369019
+                            "x": 1.0052767992019653,
+                            "y": 1.0063308477401733
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -17707,7 +18320,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
+                            "x": 8.9820413589477539,
                             "y": 962.93212890625
                         },
                         "scale": {
@@ -17746,11 +18359,11 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 307.43222045898438,
-                            "y": 966.93170166015625
+                            "x": 316.41433715820312,
+                            "y": 966.93194580078125
                         },
                         "scale": {
-                            "x": 0.92922717332839966,
+                            "x": 0.92922794818878174,
                             "y": 0.92424243688583374
                         },
                         "align": 5,
@@ -17785,11 +18398,11 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1373.2484130859375,
+                            "x": 1382.2314453125,
                             "y": 979.96038818359375
                         },
                         "scale": {
-                            "x": 0.84620082378387451,
+                            "x": 0.84620159864425659,
                             "y": 0.85093826055526733
                         },
                         "align": 5,
@@ -17824,7 +18437,7 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 407.22171020507812,
+                            "x": 416.20370483398438,
                             "y": 978.14874267578125
                         },
                         "scale": {
@@ -18240,13 +18853,45 @@
         },
         {
             "prev_ver": 503447555,
+            "name": "Separador marco",
+            "uuid": "1fef674f-6d1d-4803-8eae-8310b990ae23",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "|",
+                "font": {
+                    "face": "TacticSans-Bld",
+                    "style": "Regular",
+                    "size": 20,
+                    "flags": 0
+                }
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
             "name": "Setup",
             "uuid": "ce0e7dcf-3e67-44c0-84a6-8381f2a7cbf3",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 29,
+                "id_counter": 30,
                 "items": [
                     {
                         "name": "Fondo banda patros",
@@ -19425,6 +20070,279 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Marco ingame",
+                        "source_uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 191.0,
+                            "y": 186.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 47,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fase en marco",
+                        "source_uuid": "1b567367-6a3f-47cf-a1f5-e2737b4a7333",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 217.0,
+                            "y": 191.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 50,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Nombre parada marco",
+                        "source_uuid": "1855a3de-af98-4456-86b5-4381effddf2a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 342.0,
+                            "y": 191.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 51,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "CT marco",
+                        "source_uuid": "22f02614-8768-4043-9ce8-e27fecb742ef",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 604.0,
+                            "y": 191.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 52,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Temporada marco",
+                        "source_uuid": "5ae91f02-7779-4035-bfaa-2e3e6f83be0c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 804.0,
+                            "y": 191.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 53,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Separador marco",
+                        "source_uuid": "1fef674f-6d1d-4803-8eae-8310b990ae23",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 591.0,
+                            "y": 191.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 54,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Marco",
+                        "source_uuid": "8fc8a9c2-57c0-4125-93e9-8eaacac6ea42",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 191.0,
+                            "y": 186.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 30,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -19458,7 +20376,9 @@
                 "libobs.show_scene_item.28": [],
                 "libobs.hide_scene_item.28": [],
                 "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": []
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.30": [],
+                "libobs.hide_scene_item.30": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -20305,6 +21225,38 @@
                 "outline_size": 1,
                 "extents_cx": 140,
                 "extents_cy": 60
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Temporada marco",
+            "uuid": "5ae91f02-7779-4035-bfaa-2e3e6f83be0c",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "font": {
+                    "face": "TacticSans-Bld",
+                    "style": "Regular",
+                    "size": 20,
+                    "flags": 0
+                },
+                "text": "- 2024/25"
             },
             "mixers": 0,
             "sync": 0,
