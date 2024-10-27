@@ -30,20 +30,20 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Empezamos",
-    "current_program_scene": "Game",
+    "current_scene": "Replay",
+    "current_program_scene": "Replay",
     "scene_order": [
         {
             "name": "Setup"
+        },
+        {
+            "name": "------------"
         },
         {
             "name": "Empezamos"
         },
         {
             "name": "Cámaras"
-        },
-        {
-            "name": "Cámaras Vertical"
         },
         {
             "name": "Dawe"
@@ -61,19 +61,25 @@
             "name": "Game"
         },
         {
-            "name": "Replays"
-        },
-        {
-            "name": "Replay"
-        },
-        {
             "name": "Stats"
         },
         {
             "name": "MVP"
         },
         {
+            "name": "Entrevista"
+        },
+        {
             "name": "Finalizado"
+        },
+        {
+            "name": "-----------"
+        },
+        {
+            "name": "Replays"
+        },
+        {
+            "name": "Replay"
         }
     ],
     "name": "W2A Show",
@@ -93,7 +99,7 @@
                     {
                         "name": "Fondo patros TF",
                         "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -218,7 +224,7 @@
                             "y": 6.8748779296875
                         },
                         "scale": {
-                            "x": 0.9218754768371582,
+                            "x": 0.92187565565109253,
                             "y": 0.91666668653488159
                         },
                         "align": 5,
@@ -253,11 +259,11 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1362.3836669921875,
+                            "x": 1362.384033203125,
                             "y": 19.7967529296875
                         },
                         "scale": {
-                            "x": 0.83950597047805786,
+                            "x": 0.83950614929199219,
                             "y": 0.8439633846282959
                         },
                         "align": 5,
@@ -296,7 +302,7 @@
                             "y": 18.0
                         },
                         "scale": {
-                            "x": 0.12898087501525879,
+                            "x": 0.1289808601140976,
                             "y": 0.12898088991641998
                         },
                         "align": 5,
@@ -1327,12 +1333,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 41.0
+                            "x": 341.0,
+                            "y": 26.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1394,169 +1400,13 @@
             "settings": {
                 "custom_size": true,
                 "cx": 1920,
-                "cy": 1082,
+                "cy": 1407,
                 "id_counter": 0,
                 "items": [
                     {
-                        "name": "Castean Jack-Ferox",
-                        "source_uuid": "0e55ca91-da04-402c-b535-df5cf4dfdda1",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 26,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Warmax",
-                        "source_uuid": "f3c6b7f1-905d-4074-8343-2dceeba5c685",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 25,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Xsheron",
-                        "source_uuid": "50c0fef3-0eb4-4393-b1b3-0fd24cd907f9",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 24,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Jack-Xsheron",
-                        "source_uuid": "8ac77c4d-fb54-40aa-ad6a-209b6c2d8c25",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Equis",
+                        "name": "Castean 01",
                         "source_uuid": "c1a3190c-4524-4dea-93a3-75f194227531",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -1593,8 +1443,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Castean PSD",
-                        "source_uuid": "08b87b27-4505-49a8-b1af-06aec183947e",
+                        "name": "Castean 02",
+                        "source_uuid": "4ee4c089-ae33-4119-8938-08ea23dbd2de",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1618,7 +1468,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 30,
+                        "id": 48,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1688,18 +1538,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
                 "libobs.show_scene_item.23": [],
                 "libobs.hide_scene_item.23": [],
-                "libobs.show_scene_item.30": [],
-                "libobs.hide_scene_item.30": [],
+                "libobs.show_scene_item.48": [],
+                "libobs.hide_scene_item.48": [],
                 "libobs.show_scene_item.34": [],
                 "libobs.hide_scene_item.34": []
             },
@@ -3949,7 +3791,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.99999916553497314,
+                            "x": 0.99999910593032837,
                             "y": 1.0
                         },
                         "align": 5,
@@ -3984,11 +3826,11 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1572.2890625,
+                            "x": 1572.2889404296875,
                             "y": 6.4169883728027344
                         },
                         "scale": {
-                            "x": 0.40899384021759033,
+                            "x": 0.40899381041526794,
                             "y": 0.40912544727325439
                         },
                         "align": 5,
@@ -4027,7 +3869,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.99999922513961792,
+                            "x": 0.99999916553497314,
                             "y": 1.0
                         },
                         "align": 5,
@@ -4066,7 +3908,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.0681313276290894,
+                            "x": 1.0681312084197998,
                             "y": 1.0694980621337891
                         },
                         "align": 5,
@@ -4121,140 +3963,6 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Info game",
-            "uuid": "3b993dc7-a886-4af5-99ce-1b8d527a664e",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "custom_size": true,
-                "cx": 736,
-                "cy": 254,
-                "id_counter": 1,
-                "items": [
-                    {
-                        "name": "Ingame Info",
-                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Info game",
-                    "uuid": "53877223-7aff-481b-8763-495303842c9f",
-                    "id": "move_source_filter",
-                    "versioned_id": "move_source_filter",
-                    "settings": {
-                        "bounds": {
-                            "x": 0,
-                            "x_sign": " ",
-                            "y": 0,
-                            "y_sign": " "
-                        },
-                        "crop": {
-                            "bottom": 0,
-                            "bottom_sign": " ",
-                            "left": 0,
-                            "left_sign": " ",
-                            "right": 0,
-                            "right_sign": " ",
-                            "top": 0,
-                            "top_sign": " "
-                        },
-                        "custom_duration": false,
-                        "enabled_match_moving": false,
-                        "pos": {
-                            "x": 0,
-                            "x_sign": " ",
-                            "y": 0,
-                            "y_sign": " "
-                        },
-                        "rot": 0,
-                        "rot_sign": " ",
-                        "scale": {
-                            "x": 1,
-                            "x_sign": " ",
-                            "y": 1,
-                            "y_sign": " "
-                        },
-                        "source": "Ingame Info",
-                        "transform_text": "pos: x 0.0 y 0.0 rot: 0.0 scale: x 1.000 y 1.000 bounds: x 0.000 y 0.000 crop: l 0 t 0 r 0 b 0"
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
         },
         {
             "prev_ver": 503447555,
@@ -6281,12 +5989,72 @@
     "sources": [
         {
             "prev_ver": 503447555,
+            "name": "-----------",
+            "uuid": "2adcf4b2-10be-4ddd-af65-bc0f7bb461f5",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "------------",
+            "uuid": "8710446c-52aa-4c2b-b93a-2915829ad60d",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
             "name": "Banda Patros CT",
             "uuid": "1ba1bd4d-644f-4c34-ac1c-90ba80129b37",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/banda-patros-ct.png",
+                "url": "https://w2avalanche.github.io/streamfiles/Layouts/patros/banda-patros-ct.png",
                 "width": 1920,
                 "height": 128,
                 "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
@@ -6487,12 +6255,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -6714,454 +6482,15 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Cámaras Vertical",
-            "uuid": "6fc210a8-466b-4364-a370-d121dc7fbda3",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "custom_size": false,
-                "id_counter": 14,
-                "items": [
-                    {
-                        "name": "Fondo cámaras",
-                        "source_uuid": "4b1ff80d-60e7-4722-bfda-ef3caea6f88e",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Fondo cams cámaras",
-                        "source_uuid": "af504f66-39de-41ed-8569-646eb3898a31",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 99.0,
-                            "y": 180.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Fondo banda patros",
-                        "source_uuid": "b11299f2-4641-4662-b827-de28708aaf5a",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1720.0,
-                            "y": 952.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 16,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Banda Patros CT",
-                        "source_uuid": "1ba1bd4d-644f-4c34-ac1c-90ba80129b37",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 952.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 24,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Patros Parada",
-                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 381.0,
-                            "y": 993.0
-                        },
-                        "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 14,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Grupo Banda Patros",
-                        "source_uuid": "1100366d-cbd4-4251-99b8-bf2bf4544d6d",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 952.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        }
-                    },
-                    {
-                        "name": "VDO Vertical",
-                        "source_uuid": "5b1554be-c12e-481e-9305-926034b41db5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1392.0,
-                            "y": 192.0
-                        },
-                        "scale": {
-                            "x": 0.77080291509628296,
-                            "y": 0.77112299203872681
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Florituras cámaras",
-                        "source_uuid": "00f5b667-52d8-4134-8d4c-d799d1bf10da",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Entrevistados",
-                        "source_uuid": "c01bf471-fbe1-4d07-9ddb-f85be4306f2d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 128.0,
-                            "y": 206.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 13,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Cuenta atrás",
-                        "source_uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 554.0,
-                            "y": 88.0
-                        },
-                        "scale": {
-                            "x": 1.2788461446762085,
-                            "y": 1.2777777910232544
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {
-                "transition_duration": 500
-            }
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Castean Ferox-Equis",
+            "name": "Castean 01",
             "uuid": "c1a3190c-4524-4dea-93a3-75f194227531",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/casteanequisferox.png",
+                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/equis-warmax.png",
                 "width": 1920,
                 "height": 1080,
-                "css": "body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }\nimg { background-color: #00ff00 !important; }"
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
             },
             "mixers": 255,
             "sync": 0,
@@ -7184,45 +6513,19 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Fondo croma",
-                    "uuid": "57551c68-6115-49b9-a8e3-74790d57c42f",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
+            "private_settings": {}
         },
         {
             "prev_ver": 503447555,
-            "name": "Castean Ferox-Warmax",
-            "uuid": "f3c6b7f1-905d-4074-8343-2dceeba5c685",
+            "name": "Castean 02",
+            "uuid": "4ee4c089-ae33-4119-8938-08ea23dbd2de",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/casteanferoxwarmax.png",
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }",
+                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/jack-zurbex-abratsuki.png",
                 "width": 1920,
-                "height": 1080,
-                "css": "body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }\nimg { background-color: #00ff00 !important; }"
+                "height": 1080
             },
             "mixers": 255,
             "sync": 0,
@@ -7242,241 +6545,6 @@
                 "libobs.push-to-talk": [],
                 "ObsBrowser.Refresh": []
             },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Fondo croma",
-                    "uuid": "b36737b0-08cb-4b7e-9124-f30725bdb379",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Castean Ferox-Xsheron",
-            "uuid": "50c0fef3-0eb4-4393-b1b3-0fd24cd907f9",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/casteanferoxsheron.png",
-                "width": 1920,
-                "height": 1080,
-                "css": "body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }\nimg { background-color: #00ff00 !important; }"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Fondo croma",
-                    "uuid": "8d919253-eacb-41ab-b4bd-778296fe0dd2",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Castean Jack-Ferox",
-            "uuid": "0e55ca91-da04-402c-b535-df5cf4dfdda1",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/casteanjackferox.png",
-                "width": 1920,
-                "height": 1080,
-                "css": "body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }\nimg { background-color: #00ff00 !important; }"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Fondo croma",
-                    "uuid": "bd9e2d03-7953-4a0f-b350-bf69a83592b6",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Castean Jack-Xsheron",
-            "uuid": "8ac77c4d-fb54-40aa-ad6a-209b6c2d8c25",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://w2avalanche.github.io/streamfiles/Layouts/casters/casteanjackxsheron.png",
-                "width": 1920,
-                "height": 1080,
-                "css": "body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }\nimg { background-color: #00ff00 !important; }"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Fondo croma",
-                    "uuid": "fbffee88-175f-4759-bdf8-16fd56a31704",
-                    "id": "chroma_key_filter",
-                    "versioned_id": "chroma_key_filter_v2",
-                    "settings": {},
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "Castean PSD",
-            "uuid": "08b87b27-4505-49a8-b1af-06aec183947e",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/www/w2atv/streamfiles/PSDs/hoy castean.psd"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -7762,12 +6830,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -8155,7 +7223,6 @@
             "versioned_id": "text_gdiplus_v2",
             "settings": {
                 "extents": true,
-                "text": "FINAL",
                 "undo_uuid": "f74c37d9-e16b-40c1-8c0e-d14917cf39ab",
                 "font": {
                     "face": "Sofia Sans Extra Condensed Blac",
@@ -8169,7 +7236,8 @@
                 "bk_opacity": 100,
                 "extents_cx": 500,
                 "extents_cy": 60,
-                "transform": 1
+                "transform": 1,
+                "text": "FASE FINAL"
             },
             "mixers": 0,
             "sync": 0,
@@ -8915,12 +7983,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -9650,12 +8718,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -9686,7 +8754,7 @@
                         "name": "Grupo Banda Patros",
                         "source_uuid": "1100366d-cbd4-4251-99b8-bf2bf4544d6d",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -12039,7 +11107,7 @@
                     {
                         "name": "Grupo Vs",
                         "source_uuid": "42748f41-04ce-4279-a559-39a064522c04",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -12157,6 +11225,445 @@
                 "libobs.hide_scene_item.62": [],
                 "libobs.show_scene_item.55": [],
                 "libobs.hide_scene_item.55": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {
+                "transition_duration": 500
+            }
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Entrevista",
+            "uuid": "6fc210a8-466b-4364-a370-d121dc7fbda3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 14,
+                "items": [
+                    {
+                        "name": "Fondo cámaras",
+                        "source_uuid": "4b1ff80d-60e7-4722-bfda-ef3caea6f88e",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo cams cámaras",
+                        "source_uuid": "af504f66-39de-41ed-8569-646eb3898a31",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 99.0,
+                            "y": 180.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo banda patros",
+                        "source_uuid": "b11299f2-4641-4662-b827-de28708aaf5a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1720.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 16,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Banda Patros CT",
+                        "source_uuid": "1ba1bd4d-644f-4c34-ac1c-90ba80129b37",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 24,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Patros Parada",
+                        "source_uuid": "6c9cab4b-f131-4062-9912-3ed00d86c4f3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 341.0,
+                            "y": 978.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Grupo Banda Patros",
+                        "source_uuid": "1100366d-cbd4-4251-99b8-bf2bf4544d6d",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 952.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "VDO Vertical",
+                        "source_uuid": "5b1554be-c12e-481e-9305-926034b41db5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1392.0,
+                            "y": 192.0
+                        },
+                        "scale": {
+                            "x": 0.77080291509628296,
+                            "y": 0.77112299203872681
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Florituras cámaras",
+                        "source_uuid": "00f5b667-52d8-4134-8d4c-d799d1bf10da",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Entrevistados",
+                        "source_uuid": "c01bf471-fbe1-4d07-9ddb-f85be4306f2d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 128.0,
+                            "y": 206.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 13,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Cuenta atrás",
+                        "source_uuid": "9baeadb6-ab6a-4e46-8fb6-c0137540fe2a",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 554.0,
+                            "y": 88.0
+                        },
+                        "scale": {
+                            "x": 1.2788461446762085,
+                            "y": 1.2777777910232544
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -13103,9 +12610,9 @@
             "versioned_id": "browser_source",
             "settings": {
                 "url": "https://w2avalanche.github.io/streamfiles/Layouts/fondo-vs.png",
-                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }",
                 "width": 542,
-                "height": 229
+                "height": 229,
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
             },
             "mixers": 255,
             "sync": 0,
@@ -13138,7 +12645,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 46,
+                "id_counter": 48,
                 "items": [
                     {
                         "name": "VDO no video",
@@ -13299,12 +12806,12 @@
                     {
                         "name": "Fondo patros TF",
                         "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 959.99981689453125
+                            "y": 959.9996337890625
                         },
                         "scale": {
                             "x": 1.0,
@@ -13343,7 +12850,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 960.002197265625
+                            "y": 960.00201416015625
                         },
                         "scale": {
                             "x": 1.0,
@@ -13382,7 +12889,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 962.937744140625
+                            "y": 962.93756103515625
                         },
                         "scale": {
                             "x": 1.0020042657852173,
@@ -13421,10 +12928,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 308.04840087890625,
-                            "y": 966.9453125
+                            "y": 966.94512939453125
                         },
                         "scale": {
-                            "x": 0.93108940124511719,
+                            "x": 0.93108958005905151,
                             "y": 0.92608159780502319
                         },
                         "align": 5,
@@ -13459,11 +12966,11 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1376.0003662109375,
-                            "y": 979.9998779296875
+                            "x": 1376.000732421875,
+                            "y": 979.99969482421875
                         },
                         "scale": {
-                            "x": 0.84789663553237915,
+                            "x": 0.84789681434631348,
                             "y": 0.85263156890869141
                         },
                         "align": 5,
@@ -13499,10 +13006,10 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 408.03787231445312,
-                            "y": 978.1846923828125
+                            "y": 978.18450927734375
                         },
                         "scale": {
-                            "x": 0.13027000427246094,
+                            "x": 0.13026998937129974,
                             "y": 0.13030563294887543
                         },
                         "align": 5,
@@ -13538,7 +13045,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 959.99981689453125
+                            "y": 959.9996337890625
                         },
                         "scale": {
                             "x": 1.0099947452545166,
@@ -13572,13 +13079,13 @@
                         }
                     },
                     {
-                        "name": "Ingame Info",
-                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
+                        "name": "Marco ingame",
+                        "source_uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 599.0,
+                            "x": 598.0,
                             "y": 826.0
                         },
                         "scale": {
@@ -13597,46 +13104,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Info game",
-                        "source_uuid": "3b993dc7-a886-4af5-99ce-1b8d527a664e",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 599.0,
-                            "y": 826.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 42,
+                        "id": 47,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -13647,9 +13115,7 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "private_settings": {
-                            "collapsed": true
-                        }
+                        "private_settings": {}
                     },
                     {
                         "name": "Overlay game",
@@ -13691,165 +13157,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Castean Jack-Ferox",
-                        "source_uuid": "0e55ca91-da04-402c-b535-df5cf4dfdda1",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 26,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Warmax",
-                        "source_uuid": "f3c6b7f1-905d-4074-8343-2dceeba5c685",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 25,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Xsheron",
-                        "source_uuid": "50c0fef3-0eb4-4393-b1b3-0fd24cd907f9",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 24,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Jack-Xsheron",
-                        "source_uuid": "8ac77c4d-fb54-40aa-ad6a-209b6c2d8c25",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 2.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 27,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Castean Ferox-Equis",
+                        "name": "Castean 01",
                         "source_uuid": "c1a3190c-4524-4dea-93a3-75f194227531",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -13886,8 +13196,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Castean PSD",
-                        "source_uuid": "08b87b27-4505-49a8-b1af-06aec183947e",
+                        "name": "Castean 02",
+                        "source_uuid": "4ee4c089-ae33-4119-8938-08ea23dbd2de",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -13911,7 +13221,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 30,
+                        "id": 48,
                         "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -13970,7 +13280,7 @@
                     {
                         "name": "Hoy castean",
                         "source_uuid": "abff4641-8012-4e91-9359-985ae8704a7f",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -14230,24 +13540,14 @@
                 "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.42": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
-                "libobs.hide_scene_item.42": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A"
-                    }
-                ],
                 "libobs.show_scene_item.17": [],
                 "libobs.hide_scene_item.17": [],
                 "libobs.show_scene_item.28": [],
                 "libobs.hide_scene_item.28": [],
                 "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": []
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.47": [],
+                "libobs.hide_scene_item.47": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -15779,32 +15079,6 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Ingame Info",
-            "uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "D:/www/w2atv/streamfiles/PSDs/ingame-info.psd"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
             "name": "Live Draft",
             "uuid": "0b5a222e-87cc-4d27-a08b-d0909ad410c6",
             "id": "scene",
@@ -15976,12 +15250,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -16816,6 +16090,76 @@
         },
         {
             "prev_ver": 503447555,
+            "name": "Marco ingame",
+            "uuid": "a1f04032-7b49-40b0-b7f8-61c88e664203",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://w2avalanche.github.io/streamfiles/Layouts/game-marco.png",
+                "width": 736,
+                "height": 254,
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Marco ingame TF",
+            "uuid": "f85b5ab0-0f52-4377-9f33-25f39d0878c3",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://w2avalanche.github.io/streamfiles/Layouts/game-marco-tf.png",
+                "width": 681,
+                "height": 135,
+                "css": "body { background-color: transparent !important; margin: 0px auto; overflow: hidden; }\nimg { background-color: transparent !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
             "name": "MVP",
             "uuid": "1229905c-ff54-4d1b-9eea-7f82edf7741f",
             "id": "scene",
@@ -16948,12 +16292,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -18045,9 +17389,9 @@
             "settings": {
                 "files": [
                     {
-                        "hidden": false,
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/Layouts/patros/esm/logo-parada-esm.png",
                         "selected": false,
-                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/tormenta-begins/logo-tormenta-begins.png"
+                        "hidden": false
                     }
                 ]
             },
@@ -18198,7 +17542,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 23,
                 "items": [
                     {
                         "name": "Fondo",
@@ -18281,7 +17625,7 @@
                     {
                         "name": "Fondo patros TF",
                         "source_uuid": "c97a6f9b-c1e9-4a27-aa62-a0453ebac40c",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -18406,7 +17750,7 @@
                             "y": 966.93170166015625
                         },
                         "scale": {
-                            "x": 0.92922699451446533,
+                            "x": 0.92922717332839966,
                             "y": 0.92424243688583374
                         },
                         "align": 5,
@@ -18441,11 +17785,11 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1373.248046875,
+                            "x": 1373.2484130859375,
                             "y": 979.96038818359375
                         },
                         "scale": {
-                            "x": 0.84620064496994019,
+                            "x": 0.84620082378387451,
                             "y": 0.85093826055526733
                         },
                         "align": 5,
@@ -18484,7 +17828,7 @@
                             "y": 978.14874267578125
                         },
                         "scale": {
-                            "x": 0.13000942766666412,
+                            "x": 0.13000941276550293,
                             "y": 0.13004684448242188
                         },
                         "align": 5,
@@ -18603,7 +17947,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.93621319532394409,
+                            "x": 0.93621313571929932,
                             "y": 0.93501806259155273
                         },
                         "align": 5,
@@ -18638,11 +17982,11 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 1471.9991455078125,
+                            "x": 1471.9990234375,
                             "y": 6.0
                         },
                         "scale": {
-                            "x": 0.3829057514667511,
+                            "x": 0.38290572166442871,
                             "y": 0.38253968954086304
                         },
                         "align": 5,
@@ -18681,7 +18025,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.93621325492858887,
+                            "x": 0.93621319532394409,
                             "y": 0.93501806259155273
                         },
                         "align": 5,
@@ -18720,7 +18064,7 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 0.99999946355819702,
+                            "x": 0.99999934434890747,
                             "y": 1.0
                         },
                         "align": 5,
@@ -18790,8 +18134,8 @@
                         }
                     },
                     {
-                        "name": "Ingame Info",
-                        "source_uuid": "bea41ba3-5bac-4cf6-9dcf-2eb50a21a73c",
+                        "name": "Marco ingame TF",
+                        "source_uuid": "f85b5ab0-0f52-4377-9f33-25f39d0878c3",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -18800,8 +18144,8 @@
                             "y": 945.0
                         },
                         "scale": {
-                            "x": 0.92527174949645996,
-                            "y": 0.92519682645797729
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -18814,8 +18158,8 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 108,
-                        "id": 19,
+                        "crop_bottom": 0,
+                        "id": 23,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -18853,8 +18197,8 @@
                 "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.16": [],
                 "libobs.hide_scene_item.16": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": []
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -18989,12 +18333,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -19692,7 +19036,7 @@
                         "name": "Grupo Blue",
                         "source_uuid": "1597c607-791c-47ae-983f-d1c7bac3b850",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 156.0,
@@ -20257,12 +19601,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 381.0,
-                            "y": 993.0
+                            "x": 341.0,
+                            "y": 978.0
                         },
                         "scale": {
-                            "x": 0.60841423273086548,
-                            "y": 0.61052632331848145
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -21072,7 +20416,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
