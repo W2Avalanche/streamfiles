@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Comenzamos Volvemos en",
-    "current_program_scene": "Cámaras",
+    "current_scene": "Entrevista",
+    "current_program_scene": "Comenzamos Volvemos en",
     "scene_order": [
         {
             "name": "Comenzamos Volvemos en"
@@ -183,7 +183,7 @@
                     {
                         "name": "Volvemos en",
                         "source_uuid": "a3a51cf5-a571-4389-a93f-cbc8d3ab1eae",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 270.0,
                         "pos": {
@@ -340,7 +340,7 @@
                     {
                         "name": "Hoy castean - contador Nexo",
                         "source_uuid": "c4a2347b-6ee8-40e7-b64f-e8475a6ab3f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -630,7 +630,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 21,
+                "id_counter": 22,
                 "custom_size": false,
                 "items": [
                     {
@@ -866,8 +866,47 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
+                    },
+                    {
+                        "name": "Clasificacion",
+                        "source_uuid": "a694ef91-23a2-4b13-9110-52e5651874dc",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 22,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -891,7 +930,9 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": []
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.22": [],
+                "libobs.hide_scene_item.22": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -907,17 +948,17 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/marca-gaming.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/marca-gaming.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/nexo.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/nexo.png",
                         "selected": true,
                         "hidden": false
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/ct.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/ct.png",
                         "selected": false,
                         "hidden": false
                     }
@@ -951,12 +992,38 @@
         },
         {
             "prev_ver": 503447555,
+            "name": "Clasificacion",
+            "uuid": "a694ef91-23a2-4b13-9110-52e5651874dc",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/alfon/OneDrive/Escritorio/Clasificacion.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
             "name": "cleanfeed",
             "uuid": "52c1628a-d178-4c66-9ec8-d433d62c2f7b",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://youtube.com/live/2PEVAwJ60Io?feature=share",
+                "url": "https://youtube.com/live/K-4lLVpHDWk?feature=share",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true
@@ -964,7 +1031,7 @@
             "mixers": 225,
             "sync": 0,
             "flags": 0,
-            "volume": 0.80641663074493408,
+            "volume": 0.16936402022838593,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -991,7 +1058,7 @@
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/mascara-patros-nexo-camaras.png"
+                        "image_path": "https://w2avalanche.github.io/streamfiles/Layouts/mascaras/mascara-patros-nexo-camaras.png"
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -1136,7 +1203,7 @@
                     {
                         "name": "Fondo cuenta atrás",
                         "source_uuid": "4fce2cdd-6516-4067-afe3-8d90afdc38a5",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -1253,7 +1320,7 @@
                     {
                         "name": "Hoy castean - contador Nexo",
                         "source_uuid": "c4a2347b-6ee8-40e7-b64f-e8475a6ab3f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -1450,7 +1517,7 @@
                     {
                         "name": "Volvemos en",
                         "source_uuid": "a3a51cf5-a571-4389-a93f-cbc8d3ab1eae",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 270.0,
                         "pos": {
@@ -2318,32 +2385,6 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Imagen",
-            "uuid": "43c2a947-213a-4233-ad88-188aefd79cda",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "C:/Users/alfon/Downloads/Clasificacion.psd"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
             "name": "Logo W2a blanco Url",
             "uuid": "c85209bd-e0a3-4b71-8d79-c5f3207bb2ee",
             "id": "browser_source",
@@ -2412,7 +2453,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {}
         },
         {
@@ -2426,7 +2467,7 @@
                 "url": "https://vdo.ninja/?scene=1&room=w2atv&transparent&cover&916&margin=5&sl&s&st&border=0&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-nexo.css",
                 "width": 1716,
                 "height": 726,
-                "css": "body { background-color: rgba(22, 25, 47, 100); margin: 0px auto; overflow: hidden; }https://w2avalanche.github.io/streamfiles/",
+                "css": "body { background-color: rgba(22, 25, 47, 100); margin: 0px auto; overflow: hidden; }",
                 "reroute_audio": true
             },
             "mixers": 225,
@@ -2452,32 +2493,6 @@
             "monitoring_type": 2,
             "private_settings": {},
             "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Corrección de color",
-                    "uuid": "f229f359-09f6-49ae-8a7b-21d3afb1e2b5",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "opacity": 0.25700000000000001
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
                 {
                     "prev_ver": 503447555,
                     "name": "Expansor",
@@ -2594,7 +2609,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {},
             "filters": [
                 {
@@ -2714,7 +2729,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {},
             "filters": [
                 {
@@ -2833,7 +2848,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {},
             "filters": [
                 {
@@ -2952,7 +2967,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {},
             "filters": [
                 {
