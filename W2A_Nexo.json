@@ -11,7 +11,7 @@
         "mixers": 225,
         "sync": 0,
         "flags": 0,
-        "volume": 0.88023370504379272,
+        "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
         "muted": true,
@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Comenzamos Volvemos en",
-    "current_program_scene": "Cámaras",
+    "current_scene": "Entrevista",
+    "current_program_scene": "Comenzamos Volvemos en",
     "scene_order": [
         {
             "name": "Comenzamos Volvemos en"
@@ -340,7 +340,7 @@
                     {
                         "name": "Hoy castean - contador Nexo",
                         "source_uuid": "c4a2347b-6ee8-40e7-b64f-e8475a6ab3f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -630,7 +630,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 19,
+                "id_counter": 22,
                 "custom_size": false,
                 "items": [
                     {
@@ -868,6 +868,45 @@
                         "private_settings": {
                             "collapsed": false
                         }
+                    },
+                    {
+                        "name": "Clasificacion",
+                        "source_uuid": "a694ef91-23a2-4b13-9110-52e5651874dc",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 22,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -891,7 +930,9 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": []
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.22": [],
+                "libobs.hide_scene_item.22": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -907,17 +948,17 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/marca-gaming.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/marca-gaming.png",
                         "selected": false,
                         "hidden": false
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/nexo.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/nexo.png",
                         "selected": true,
                         "hidden": false
                     },
                     {
-                        "value": "D:/www/w2atv/streamfiles/Layouts/patros/nexo/ct.png",
+                        "value": "https://w2avalanche.github.io/streamfiles/Layouts/patros/nexo/ct.png",
                         "selected": false,
                         "hidden": false
                     }
@@ -951,12 +992,12 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Clasi",
-            "uuid": "be2fe4e8-dcfe-49d8-b03e-1dc5083e7629",
+            "name": "Clasificacion",
+            "uuid": "a694ef91-23a2-4b13-9110-52e5651874dc",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/alfon/OneDrive/Escritorio/CLASI.png"
+                "file": "C:/Users/alfon/OneDrive/Escritorio/Clasificacion.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -982,7 +1023,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://youtube.com/live/F04ZwIwCDpQ?feature=share",
+                "url": "https://youtube.com/live/K-4lLVpHDWk?feature=share",
                 "width": 1920,
                 "height": 1080,
                 "reroute_audio": true
@@ -990,7 +1031,7 @@
             "mixers": 225,
             "sync": 0,
             "flags": 0,
-            "volume": 0.097108021378517151,
+            "volume": 0.16936402022838593,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -1017,7 +1058,7 @@
                     "id": "mask_filter",
                     "versioned_id": "mask_filter_v2",
                     "settings": {
-                        "image_path": "D:/www/w2atv/streamfiles/Layouts/mascaras/mascara-patros-nexo-camaras.png"
+                        "image_path": "https://w2avalanche.github.io/streamfiles/Layouts/mascaras/mascara-patros-nexo-camaras.png"
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -1078,7 +1119,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 19,
+                "id_counter": 20,
                 "custom_size": false,
                 "items": [
                     {
@@ -1147,6 +1188,45 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 9,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Fondo cuenta atrás",
+                        "source_uuid": "4fce2cdd-6516-4067-afe3-8d90afdc38a5",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 1,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 20,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1240,7 +1320,7 @@
                     {
                         "name": "Hoy castean - contador Nexo",
                         "source_uuid": "c4a2347b-6ee8-40e7-b64f-e8475a6ab3f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
@@ -1533,6 +1613,8 @@
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.15": [],
                 "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.14": [],
@@ -1588,7 +1670,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 13,
+                "id_counter": 14,
                 "custom_size": false,
                 "items": [
                     {
@@ -1976,7 +2058,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -2090,6 +2172,32 @@
                 "color": 4285610032,
                 "width": 383,
                 "height": 163
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Fondo cuenta atrás",
+            "uuid": "4fce2cdd-6516-4067-afe3-8d90afdc38a5",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/alfon/Downloads/jornada.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2328,107 +2436,7 @@
             "mixers": 193,
             "sync": 0,
             "flags": 0,
-            "volume": 0.62016940116882324,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "VDO Cams",
-            "uuid": "8a9aeccc-7df6-4fda-aef3-1bd6a81d77ae",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "undo_uuid": "8a9aeccc-7df6-4fda-aef3-1bd6a81d77ae",
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&transparent&cover&916&margin=5&sl&s&st&border=0&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyles%2Fvdo-nexo.css",
-                "width": 1716,
-                "height": 726,
-                "reroute_audio": true,
-                "css": "body { background-color: rgba(22, 25, 47, 100); margin: 0px auto; overflow: hidden; }https://w2avalanche.github.io/streamfiles/"
-            },
-            "mixers": 225,
-            "sync": 0,
-            "flags": 2,
-            "volume": 0.92873364686965942,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 503447555,
-                    "name": "Corrección de color",
-                    "uuid": "f229f359-09f6-49ae-8a7b-21d3afb1e2b5",
-                    "id": "color_filter",
-                    "versioned_id": "color_filter_v2",
-                    "settings": {
-                        "opacity": 0.25700000000000001
-                    },
-                    "mixers": 0,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": false,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "VDO Cams entrevista",
-            "uuid": "22f0f3ac-f217-4236-b17c-538bd88a60b2",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&transparent&margin=5&cover&s&sl&st&border=1&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyles%2Fvdo-nexo-entrevista.css",
-                "width": 470,
-                "height": 726,
-                "reroute_audio": true
-            },
-            "mixers": 225,
-            "sync": 0,
-            "flags": 2,
-            "volume": 0.92873364686965942,
+            "volume": 0.58325397968292236,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2450,12 +2458,252 @@
         },
         {
             "prev_ver": 503447555,
+            "name": "VDO Cams",
+            "uuid": "8a9aeccc-7df6-4fda-aef3-1bd6a81d77ae",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "undo_uuid": "8a9aeccc-7df6-4fda-aef3-1bd6a81d77ae",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&transparent&cover&916&margin=5&sl&s&st&border=0&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-nexo.css",
+                "width": 1716,
+                "height": 726,
+                "css": "body { background-color: rgba(22, 25, 47, 100); margin: 0px auto; overflow: hidden; }",
+                "reroute_audio": true
+            },
+            "mixers": 225,
+            "sync": 0,
+            "flags": 2,
+            "volume": 0.97646725177764893,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 2,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Expansor",
+                    "uuid": "8136a42e-1ae5-40ef-9ba4-20634d792c5a",
+                    "id": "expander_filter",
+                    "versioned_id": "expander_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "attack_time": 3,
+                        "output_gain": 5.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Compresor",
+                    "uuid": "5055c8ca-59bd-4272-be7e-0ed974dc4e52",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 4.0,
+                        "threshold": -30.0,
+                        "output_gain": 15.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Limitador",
+                    "uuid": "0bbbafc1-7f58-41c8-8e54-206f9c96af8f",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -2.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "VDO Cams entrevista",
+            "uuid": "22f0f3ac-f217-4236-b17c-538bd88a60b2",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&transparent&margin=5&cover&s&sl&st&border=1&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-nexo-entrevista.css",
+                "width": 470,
+                "height": 726,
+                "reroute_audio": true
+            },
+            "mixers": 225,
+            "sync": 0,
+            "flags": 2,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 2,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Expansor",
+                    "uuid": "5b08c0a1-4124-4482-8832-72c103994b71",
+                    "id": "expander_filter",
+                    "versioned_id": "expander_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "attack_time": 3,
+                        "output_gain": 5.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Compresor",
+                    "uuid": "d2a6cf00-8838-42f2-af66-037aa6dcdad8",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 4.0,
+                        "threshold": -30.0,
+                        "output_gain": 15.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Limitador",
+                    "uuid": "d7f4ef31-90e5-4e3c-b6ff-0d32db0595c7",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -2.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
             "name": "VDO Draft",
             "uuid": "f421686b-0814-4350-8b52-53ce75e1fc45",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin=4&s&sl&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyles%2Fvdo-nexo-draft.css",
+                "url": "https://vdo.ninja/?scene=1&room=w2atv&cover&916&margin=4&s&sl&st&videobitrate=10000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-nexo-draft.css",
                 "width": 1150,
                 "height": 650,
                 "css": "body { background-color: rgba(22, 25, 47, 100); margin: 0px auto; overflow: hidden; }",
@@ -2481,8 +2729,92 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
+            "monitoring_type": 2,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Expansor",
+                    "uuid": "a6c28328-84e7-424e-afa5-55a526dd2af0",
+                    "id": "expander_filter",
+                    "versioned_id": "expander_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "attack_time": 3,
+                        "output_gain": 5.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Compresor",
+                    "uuid": "8540c480-df4a-4670-99e7-3e2ba24b350c",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 4.0,
+                        "threshold": -30.0,
+                        "output_gain": 15.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Limitador",
+                    "uuid": "4330dddd-df08-4e7a-a74a-fdc170453575",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -2.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503447555,
@@ -2491,7 +2823,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?scene=2&room=w2atv&transparent&cover&916&margin=5&sl&s&st&border=1&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyles%2Fvdo-nexo.css",
+                "url": "https://vdo.ninja/?scene=2&room=w2atv&transparent&cover&916&margin=5&sl&s&st&border=1&bordercolor=14182e&videobitrate=7000&css=https%3A%2F%2Fw2avalanche.github.io%2Fstreamfiles%2FStyle%2Fvdo-nexo.css",
                 "width": 1247,
                 "height": 726,
                 "reroute_audio": true
@@ -2516,8 +2848,92 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
+            "monitoring_type": 2,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Expansor",
+                    "uuid": "2c9708e1-8aed-4bf8-99f0-e2745318fb97",
+                    "id": "expander_filter",
+                    "versioned_id": "expander_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "attack_time": 3,
+                        "output_gain": 5.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Compresor",
+                    "uuid": "35a2057c-71e8-4820-a55d-872658006a07",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 4.0,
+                        "threshold": -30.0,
+                        "output_gain": 15.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Limitador",
+                    "uuid": "270f4907-be49-4864-9173-30705b1939ab",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -2.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503447555,
@@ -2551,8 +2967,92 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
+            "monitoring_type": 2,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Expansor",
+                    "uuid": "b886c2ae-8f39-434a-828b-02d0934db8d0",
+                    "id": "expander_filter",
+                    "versioned_id": "expander_filter",
+                    "settings": {
+                        "ratio": 3.0,
+                        "attack_time": 3,
+                        "output_gain": 5.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Compresor",
+                    "uuid": "99b1bfee-a1a4-4bd3-9a9f-e64189ebe7ca",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 4.0,
+                        "threshold": -30.0,
+                        "output_gain": 15.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 503447555,
+                    "name": "Limitador",
+                    "uuid": "1e9b5b4d-679e-4fec-8a41-13fd7f53e710",
+                    "id": "limiter_filter",
+                    "versioned_id": "limiter_filter",
+                    "settings": {
+                        "threshold": -2.0
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503447555,
